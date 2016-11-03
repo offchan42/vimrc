@@ -8,6 +8,7 @@ There are two versions:
 * **Awesome**: This includes a ton of useful plugins, color schemes and configurations
 
 I would of course recommend using the awesome version.c
+OFF EDITION: you will also get my extended configs which is in my opinion better than the original one!
 
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
@@ -16,6 +17,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
+OFF SUGGESTION: https://github.com/adobe-fonts/source-code-pro
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim).
