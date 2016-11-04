@@ -2,15 +2,11 @@
 " off99555's '.vimrc' configurations
 " Extended to the Ultimate .vimrc
 
-"let g:airline_theme='base16_solarized'
-"let g:airline#extensions#tabline#enabled = 1
-"colorscheme solarized
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " file settings
 set number
 " Maximize the Vim window under Windows OS
-if has('gui_running')
+if has('gui_running') && (has("win16") || has("win32"))
     au GUIEnter * simalt ~x 
 endif
 
