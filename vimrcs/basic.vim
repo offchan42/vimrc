@@ -244,7 +244,7 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext 
+map <leader>t<leader> :tabnext "gt can do this quite well e.g. 2gt will go to the 2nd tab
 
 " Let 'double space' toggle between this and the last accessed tab
 let g:lasttab = 1
