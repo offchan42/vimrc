@@ -34,4 +34,3 @@ inoremap jk <Esc>
 " Allow working with Unicode characters
 scriptencoding utf-8
 "set listchars=trail:·,precedes:«,extends:»,eol:¬,tab:▸\ 
-
