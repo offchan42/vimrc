@@ -244,7 +244,8 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext "gt can do this quite well e.g. 2gt will go to the 2nd tab
+"gt can do this quite well e.g. 2gt will go to the 2nd tab
+map <leader>t<leader> :tabnext
 
 " Let '<leader>tl' toggle between this and the last accessed tab
 let g:lasttab = 1
@@ -284,7 +285,7 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Remap VIM 0 to first non-blank character
-map 0 ^
+"map 0 ^
 
 " Move a line of text using ALT+[jk] or Command+[jk] on mac
 nmap <M-j> mz:m+<cr>`z
