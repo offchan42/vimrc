@@ -93,7 +93,7 @@ Remove all clutter and focus only on the essential. Similar to iA Writer or Writ
 ## Included color schemes
 
 * [peaksea](https://github.com/vim-scripts/peaksea): My favorite!
-* [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+* [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) Off's favorite! (this is the default theme for this repository)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
@@ -116,6 +116,8 @@ After you have installed the setup you can create **~/.vim_runtime/my_configs.vi
 	~/.vim_runtime (master)> cat my_configs.vim
 	map <leader>ct :cd ~/Desktop/Todoist/todoist<cr>
 	map <leader>cw :cd ~/Desktop/Wedoist/wedoist<cr> 
+
+    OFF'S EDITION: Just look inside my_configs.vim in this repository, it's not the same as above
 
 You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
 
