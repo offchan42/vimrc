@@ -86,3 +86,7 @@ nnoremap <Leader>r :!
 
 " Always use vertical diffs
 set diffopt+=vertical
+
+" auto-pairs plugin
+let g:AutoPairsFlyMode = 1
+let g:AutoPairsShortcutBackInsert = '<M-b>'
