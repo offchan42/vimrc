@@ -52,6 +52,10 @@ set colorcolumn=+1
 
 set number
 set numberwidth=5
+set relativenumber
+autocmd InsertEnter * :set number norelativenumber
+autocmd InsertLeave * :set number relativenumber
+
 " Tab completion
 " will insert tab at beginning of line,
 " will use completion if not at beginning
