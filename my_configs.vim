@@ -55,6 +55,8 @@ set numberwidth=5
 set relativenumber
 autocmd InsertEnter * :set number norelativenumber
 autocmd InsertLeave * :set number relativenumber
+autocmd FocusLost * :set norelativenumber
+autocmd FocusGained * :set relativenumber
 
 " Tab completion
 " will insert tab at beginning of line,
