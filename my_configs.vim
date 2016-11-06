@@ -18,8 +18,8 @@ vnoremap > >gv
 map Y y$
 
 " Improve up/down movement on wrapped lines
-nnoremap j gj
-nnoremap k gk
+"nnoremap j gj
+"nnoremap k gk
 
 " Force saving files that require root permission
 cmap w!! %!sudo tee > /dev/null %
