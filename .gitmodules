@@ -1,0 +1,3 @@
+[submodule "sources_non_forked/vim-indent-guides"]
+	path = sources_non_forked/vim-indent-guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
