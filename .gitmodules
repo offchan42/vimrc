@@ -4,3 +4,6 @@
 [submodule "sources_non_forked/vim-gitgutter"]
 	path = sources_non_forked/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "sources_non_forked/neocomplete.vim"]
+	path = sources_non_forked/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim.git
