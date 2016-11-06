@@ -144,9 +144,7 @@ Open [MRU.vim](https://github.com/vim-scripts/mru.vim) and see the recently open
 
     map <leader>f :MRU<CR>
 
-Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin (`<leader>j` or `<ctrl>f`):
-    
-    let g:ctrlp_map = '<c-f>'
+Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin (`<leader>j`)
 
 Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
 
@@ -164,12 +162,6 @@ Fast saving of a buffer (`<leader>w`):
 
 	nmap <leader>w :w!<cr>
 	
-Map `<Space>` to `/` (search) and `<Ctrl>+<Space>` to `?` (backwards search):
-	
-	map <space> /
-	map <c-space> ?
-	map <silent> <leader><cr> :noh<cr>
-
 Disable highlight when `<leader><cr>` is pressed:
 	
 	map <silent> <leader><cr> :noh<cr>
@@ -226,16 +218,6 @@ Toggle paste mode on and off:
 
 
 ### Insert mode mappings
-
-Quickly insert parenthesis/brackets/etc.:
-
-    inoremap $1 ()<esc>i
-    inoremap $2 []<esc>i
-    inoremap $3 {}<esc>i
-    inoremap $4 {<esc>o}<esc>O
-    inoremap $q ''<esc>i
-    inoremap $e ""<esc>i
-    inoremap $t <><esc>i
 
 Insert the current date and time (useful for timestamps):
 
