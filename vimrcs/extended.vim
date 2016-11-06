@@ -29,8 +29,10 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-"colorscheme peaksea
-colorscheme solarized
+if has("gui_running")
+  "colorscheme peaksea
+  colorscheme solarized
+endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
