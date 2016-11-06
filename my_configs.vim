@@ -90,3 +90,17 @@ set diffopt+=vertical
 " auto-pairs plugin
 let g:AutoPairsFlyMode = 1
 let g:AutoPairsShortcutBackInsert = '<M-b>'
+
+" change font size quickly
+if has("gui_running")
+  nnoremap <C-Up> :silent! let &guifont = substitute(
+  \ &guifont,
+  \ ':h\zs\d\+',
+  \ '\=eval(submatch(0)+1)',
+  \ 'g')<CR>
+  nnoremap <C-Down> :silent! let &guifont = substitute(
+  \ &guifont,
+  \ ':h\zs\d\+',
+  \ '\=eval(submatch(0)-1)',
+  \ 'g')<CR>
+endif
