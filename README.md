@@ -1,6 +1,8 @@
 # The Ultimate vimrc [[OFF'S EDITION]]
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
+**OFF'S EDITION**: If you don't have Vim installed, I suggest you to install 64-bit
+version and here is the link: https://bintray.com/micbou/generic/vim
 
 There are two versions:
 
@@ -9,7 +11,7 @@ There are two versions:
 
 I would of course recommend using the awesome version.c
 
-OFF EDITION: you will also get my extended configs which is in my opinion better than the original one!
+**OFF'S EDITION**: you will also get my extended configs which is in my opinion better than the original one!
 
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
@@ -19,7 +21,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 
 I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
 
-OFF EDITION: I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
+**OFF'S EDITION**: I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
@@ -117,7 +119,7 @@ After you have installed the setup you can create **~/.vim_runtime/my_configs.vi
 	map <leader>ct :cd ~/Desktop/Todoist/todoist<cr>
 	map <leader>cw :cd ~/Desktop/Wedoist/wedoist<cr> 
 
-    OFF'S EDITION: Just look inside my_configs.vim in this repository, it's not the same as above
+    **OFF'S EDITION**: Just look inside my_configs.vim in this repository, it's not the same as above
 
 You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
 
