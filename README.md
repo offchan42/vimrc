@@ -1,7 +1,5 @@
 # The Ultimate vimrc [[OFF'S EDITION]]
 
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
-
 **OFF'S EDITION**: If you don't have Vim installed, I suggest you to install 64-bit
 version and here is the link: https://bintray.com/micbou/generic/vim
 
