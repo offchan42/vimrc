@@ -20,6 +20,10 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
+**OFF'S EDITION**: If you want to use neocomplete (Autocomplete) plugin, you'll
+need to have Lua installed, please refer to
+https://github.com/Shougo/neocomplete.vim#requirements for further instructions.
+
 I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
 
 **OFF'S EDITION**: I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
