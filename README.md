@@ -116,13 +116,7 @@ Remove all clutter and focus only on the essential. Similar to iA Writer or Writ
 
 ## How to include your own stuff?
 
-After you have installed the setup you can create **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you. For instance, my **my_configs.vim** looks like this:
-
-	~/.vim_runtime (master)> cat my_configs.vim
-	map <leader>ct :cd ~/Desktop/Todoist/todoist<cr>
-	map <leader>cw :cd ~/Desktop/Wedoist/wedoist<cr> 
-
-    **OFF'S EDITION**: Just look inside my_configs.vim in this repository, it's not the same as above
+After you have installed the setup you can append **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you.
 
 You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
 
