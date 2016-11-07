@@ -10,3 +10,6 @@
 [submodule "sources_non_forked/indentLine"]
 	path = sources_non_forked/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule "sources_non_forked/vim-startify"]
+	path = sources_non_forked/vim-startify
+	url = https://github.com/mhinz/vim-startify.git
