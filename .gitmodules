@@ -7,3 +7,6 @@
 [submodule "sources_non_forked/neocomplete.vim"]
 	path = sources_non_forked/neocomplete.vim
 	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule "sources_non_forked/indentLine"]
+	path = sources_non_forked/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
