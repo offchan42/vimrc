@@ -73,7 +73,7 @@ endfunction
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <S-Tab> <c-n>
 
-nnoremap <leader><leader> <c-^>
+"nnoremap <leader><leader> <c-^>
 
 " Get off my lawn
 nnoremap <Left> :echoe "Use h"<CR>
