@@ -13,3 +13,6 @@
 [submodule "sources_non_forked/vim-startify"]
 	path = sources_non_forked/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
+[submodule "sources_non_forked/vim-easymotion"]
+	path = sources_non_forked/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
