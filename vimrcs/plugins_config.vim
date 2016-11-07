@@ -254,3 +254,6 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 " vim-indent-guides plugin
 let g:indent_guides_enable_on_vim_startup = 0
 "let g:indent_guides_guide_size = 2
+
+" vim-easymotion plugin
+let g:EasyMotion_smartcase = 1
