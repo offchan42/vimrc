@@ -16,3 +16,6 @@
 [submodule "sources_non_forked/vim-easymotion"]
 	path = sources_non_forked/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "sources_non_forked/mru.vim"]
+	path = sources_non_forked/mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
