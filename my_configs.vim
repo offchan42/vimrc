@@ -76,13 +76,17 @@ inoremap <S-Tab> <c-n>
 "nnoremap <leader><leader> <c-^>
 
 " Get off my lawn
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
+"nnoremap <Left> :echoe "Use h"<CR>
+"nnoremap <Right> :echoe "Use l"<CR>
+"nnoremap <Up> :echoe "Use k"<CR>
+"nnoremap <Down> :echoe "Use j"<CR>
+nnoremap <Left> B
+nnoremap <Right> W
+nnoremap <Up> 15<c-y>
+nnoremap <Down> 15<c-e>
 
 " Run commands on the shell
-nnoremap <Leader>r :!
+nnoremap <Leader>r q:i!
 
 " Always use vertical diffs
 set diffopt+=vertical
