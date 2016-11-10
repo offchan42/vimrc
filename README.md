@@ -5,7 +5,7 @@ version and here is the link: https://bintray.com/micbou/generic/vim
 
 There are two versions:
 
-* **Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
+* **Basic**: If you want something small just copy [basic.vim](vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
 * **Awesome**: This includes a ton of useful plugins, color schemes and configurations
 
 I would of course recommend using the awesome version.c
