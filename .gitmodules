@@ -25,3 +25,6 @@
 [submodule "sources_non_forked/vim-nerdtree-tabs"]
 	path = sources_non_forked/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "sources_non_forked/taglist.vim"]
+	path = sources_non_forked/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git
