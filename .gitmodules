@@ -22,3 +22,6 @@
 [submodule "sources_non_forked/ctrlp.vim"]
 	path = sources_non_forked/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "sources_non_forked/vim-nerdtree-tabs"]
+	path = sources_non_forked/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
