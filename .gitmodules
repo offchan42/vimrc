@@ -19,3 +19,6 @@
 [submodule "sources_non_forked/mru.vim"]
 	path = sources_non_forked/mru.vim
 	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "sources_non_forked/ctrlp.vim"]
+	path = sources_non_forked/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
