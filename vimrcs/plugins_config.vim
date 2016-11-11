@@ -268,3 +268,14 @@ let g:indent_guides_enable_on_vim_startup = 0
 
 " vim-easymotion plugin
 let g:EasyMotion_smartcase = 1
+
+" taglist.vim plugin
+" the following activate taglist on Windows OS, 
+" you should install it on Unix-like system using different methods
+if has("win32")
+  let g:Tlist_Ctags_Cmd = '"../ctags58/ctags.exe"'
+endif
+
+let g:Tlist_Auto_Open = 1
+let Tlist_GainFocus_On_ToggleOpen = 1
+nnoremap <silent> <F8> :TlistToggle<CR>
