@@ -268,6 +268,9 @@ let g:indent_guides_enable_on_vim_startup = 0
 
 " vim-easymotion plugin
 let g:EasyMotion_smartcase = 1
+" this replaces the default substitute behavior by making 's' do sneak search
+" type 2 characters and it will search across windows wonderfully
+nmap s <Plug>(easymotion-overwin-f2)
 
 " taglist.vim plugin
 " the following activate taglist on Windows OS, 
