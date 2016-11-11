@@ -32,8 +32,9 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 " => YankStack
 """"""""""""""""""""""""""""""
-nmap <c-p> <Plug>yankstack_substitute_older_paste
-nmap <c-P> <Plug>yankstack_substitute_newer_paste
+" call yankstack#setup()
+" nmap <c-p> <Plug>yankstack_substitute_older_paste
+" nmap <c-P> <Plug>yankstack_substitute_newer_paste
 
 
 """"""""""""""""""""""""""""""
@@ -271,6 +272,8 @@ let g:EasyMotion_smartcase = 1
 " this replaces the default substitute behavior by making 's' do sneak search
 " type 2 characters and it will search across windows wonderfully
 nmap s <Plug>(easymotion-overwin-f2)
+xmap <Leader>s <Plug>(easymotion-bd-f2)
+omap <Leader>s <Plug>(easymotion-bd-f2)
 
 " taglist.vim plugin
 " the following activate taglist on Windows OS, 
