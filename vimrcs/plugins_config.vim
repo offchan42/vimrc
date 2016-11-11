@@ -80,10 +80,18 @@ let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
 " Need only single click to open/close folder
 let g:NERDTreeMouseMode=2
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark
-map <leader>nf :NERDTreeFind<cr>
+" map <leader>nn :NERDTreeToggle<cr>
+" map <leader>nb :NERDTreeFromBookmark
+" map <leader>nf :NERDTreeFind<cr>
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Nerd Tree Tabs
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:nerdtree_tabs_open_on_gui_startup=0
+map <leader>nt :NERDTreeTabsToggle<cr>
+map <leader>nf :NERDTreeTabsFind<cr>
+map <leader>nn :NERDTreeFocusToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
