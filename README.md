@@ -23,6 +23,10 @@ The awesome version includes a lot of great plugins, configurations and color sc
 need to have Lua installed, please refer to
 https://github.com/Shougo/neocomplete.vim#requirements for further instructions.
 
+If you want to use **taglist.vim** plugin then you also need to install **ctags** which
+can be found at http://ctags.sourceforge.net/ (Don't install if you use Windows
+because the Windows version is already installed inside this repository)
+
 I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
 
 **OFF'S EDITION**: I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
