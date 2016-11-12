@@ -37,3 +37,6 @@
 [submodule "sources_non_forked/FastFold"]
 	path = sources_non_forked/FastFold
 	url = https://github.com/Konfekt/FastFold.git
+[submodule "sources_non_forked/vim-flake8"]
+	path = sources_non_forked/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
