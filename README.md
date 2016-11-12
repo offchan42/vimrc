@@ -27,6 +27,11 @@ If you want to use **taglist.vim** plugin then you also need to install **ctags*
 can be found at http://ctags.sourceforge.net/ (Don't install if you use Windows
 because the Windows version is already installed inside this repository)
 
+If you want to use Python's Omni autucomplete feature with **CTRL-X CTRL-O**
+then install Python 2 and set **PYTHONHOME** to the directory where you have
+**python.exe** lying around. Refer to http://stackoverflow.com/a/40566169/2593810 for more
+information.
+
 I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
 
 **OFF'S EDITION**: I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
