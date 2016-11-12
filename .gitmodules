@@ -43,3 +43,6 @@
 [submodule "sources_non_forked/Zenburn"]
 	path = sources_non_forked/Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "sources_non_forked/syntastic"]
+	path = sources_non_forked/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
