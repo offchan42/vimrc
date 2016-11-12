@@ -40,3 +40,6 @@
 [submodule "sources_non_forked/vim-flake8"]
 	path = sources_non_forked/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
+[submodule "sources_non_forked/Zenburn"]
+	path = sources_non_forked/Zenburn
+	url = https://github.com/jnurmine/Zenburn.git

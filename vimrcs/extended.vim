@@ -32,6 +32,8 @@ set background=light background=dark
 if has("gui_running")
   "colorscheme peaksea
   colorscheme solarized
+else
+  colorscheme zenburn
 endif
 
 
