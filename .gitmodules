@@ -34,3 +34,6 @@
 [submodule "sources_non_forked/indentpython.vim"]
 	path = sources_non_forked/indentpython.vim
 	url = https://github.com/vim-scripts/indentpython.vim.git
+[submodule "sources_non_forked/FastFold"]
+	path = sources_non_forked/FastFold
+	url = https://github.com/Konfekt/FastFold.git
