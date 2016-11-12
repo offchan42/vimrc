@@ -51,9 +51,6 @@ au BufNewFile,BufRead *.js, *.html, *.css
     \ set softtabstop=2
     \ set shiftwidth=2
 
-" Flagging unnecessary whitespace
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-
 " Enable folding
 set foldmethod=indent
 set foldlevel=99 "start by not closing any folds
