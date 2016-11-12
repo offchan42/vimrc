@@ -84,6 +84,7 @@ let g:NERDTreeMouseMode=2
 " map <leader>nn :NERDTreeToggle<cr>
 " map <leader>nb :NERDTreeFromBookmark
 " map <leader>nf :NERDTreeFind<cr>
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree Tabs
