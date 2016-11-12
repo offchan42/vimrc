@@ -51,6 +51,9 @@ au BufNewFile,BufRead *.js, *.html, *.css
     \ set softtabstop=2
     \ set shiftwidth=2
 
+" Flagging unnecessary whitespace
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
 """"""""""" Thoughtbot .vimrc """""""""""
 set showcmd
 set nowritebackup
