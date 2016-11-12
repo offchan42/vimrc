@@ -30,12 +30,17 @@ because the Windows version is already installed inside this repository)
 then install Python 2 and set **PYTHONHOME** to the directory where you have
 **python.exe** lying around. Refer to http://stackoverflow.com/a/40566169/2593810 for more
 information.
-
 Try typing `:py print 2**10` and if it outputs `1024` then you are good to go.
 
-4. I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
+4. If you want to use flake8 python static file checkers (**F7**) please use
+   python **pip** or any python environment manager to install **flake8** like
+   so: `pip install flake8`
 
-I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
+5. I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
+(it's free and awesome font for writing and programming).
+The Awesome vimrc is already setup to try to use it.
+I suggest you to download the font from this less troublesome repository:
+https://github.com/adobe-fonts/source-code-pro
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
