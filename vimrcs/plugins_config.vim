@@ -296,11 +296,13 @@ omap <Leader>s <Plug>(easymotion-bd-f2)
 " taglist.vim plugin
 " the following activate taglist on Windows OS, 
 " you should install it on Unix-like system using different methods
-if has("win32")
-  let g:Tlist_Ctags_Cmd = '"%userprofile%/.vim_runtime/ctags58/ctags.exe"'
-else
-  " this is just a placeholder for ctags so that it won't yell error on startup
-  let g:Tlist_Ctags_Cmd = 'CHANGE_THIS_PLACEHOLDER_FOR_CTAGS'
+if !executable('ctags')
+  if has("win32")
+    let g:Tlist_Ctags_Cmd = '"%userprofile%/.vim_runtime/ctags58/ctags.exe"'
+  else
+    " this is just a placeholder for ctags so that it won't yell error on startup
+    let g:Tlist_Ctags_Cmd = 'CHANGE_THIS_PLACEHOLDER_FOR_CTAGS'
+  endif
 endif
 
 let g:Tlist_Auto_Open = 0
