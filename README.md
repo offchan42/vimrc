@@ -1,7 +1,8 @@
 # The Ultimate vimrc [[OFF'S EDITION]]
 
-**OFF'S EDITION**: If you don't have Vim installed, I suggest you to install 64-bit
-version and here is the link: https://bintray.com/micbou/generic/vim
+## Prerequisite
+If you don't have Vim installed, I suggest you to install 64-bit
+version and here is the suggested link: https://bintray.com/micbou/generic/vim
 
 There are two versions:
 
@@ -10,8 +11,6 @@ There are two versions:
 
 I would of course recommend using the awesome version.c
 
-**OFF'S EDITION**: you will also get my extended configs which is in my opinion better than the original one!
-
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
@@ -19,22 +18,24 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	cd ~/.vim_runtime && git submodule update --init --recursive && cd ~-
 
-**OFF'S EDITION**: If you want to use neocomplete (Autocomplete) plugin, you'll
+1. If you want to use neocomplete (Autocomplete) plugin, you'll
 need to have Lua installed, please refer to
 https://github.com/Shougo/neocomplete.vim#requirements for further instructions.
 
-If you want to use **taglist.vim** plugin then you also need to install **ctags** which
+2. If you want to use **taglist.vim** plugin (**F8**) then you also need to install **ctags** which
 can be found at http://ctags.sourceforge.net/ (Don't install if you use Windows
 because the Windows version is already installed inside this repository)
 
-If you want to use Python's Omni autucomplete feature with **CTRL-X CTRL-O**
+3. If you want to use Python's Omni autocomplete feature with **CTRL-X CTRL-O**
 then install Python 2 and set **PYTHONHOME** to the directory where you have
 **python.exe** lying around. Refer to http://stackoverflow.com/a/40566169/2593810 for more
 information.
 
-I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
+Try typing `:py print 2**10` and if it outputs `1024` then you are good to go.
 
-**OFF'S EDITION**: I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
+4. I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
+
+I suggest you to download the font from this less troublesome repository: https://github.com/adobe-fonts/source-code-pro
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
@@ -52,11 +53,12 @@ Use [msysgit (Git Bash)](http://msysgit.github.com/) to checkout the repository 
 
 ## How to install on Linux
 
-If you have vim aliased as `vi` instead of `vim`, make sure to either alias it: `alias vi=vim`. Otherwise, `apt-get install vim`
+Install like on Windows but instead of using Git Bash, you can just simply use a
+real Bash!
 
 ## How to update to latest version?
 
-Simply just do a git rebase!
+Simply just do a git pull rebase!
 
     cd ~/.vim_runtime
     git pull --rebase
@@ -152,9 +154,9 @@ Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin (`<leader>j`)
 
 Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
 
-    map <leader>nn :NERDTreeToggle<cr>
-    map <leader>nb :NERDTreeFromBookmark 
-    map <leader>nf :NERDTreeFind<cr>
+    map <leader>nt :NERDTreeTabsToggle<cr>
+    map <leader>nf :NERDTreeTabsFind<cr>
+    map <leader>nn :NERDTreeFocusToggle<cr>
 
 [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2) lets you only focus on one thing at a time. It removes all the distractions and centers the content. It has a special look when editing Markdown, reStructuredText and textfiles. It only has one mapping. (`<leader>z`)
 
