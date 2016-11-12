@@ -28,3 +28,6 @@
 [submodule "sources_non_forked/taglist.vim"]
 	path = sources_non_forked/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "sources_non_forked/SimpylFold"]
+	path = sources_non_forked/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
