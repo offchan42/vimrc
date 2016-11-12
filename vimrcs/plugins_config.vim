@@ -302,3 +302,9 @@ endif
 let g:Tlist_Auto_Open = 0
 let Tlist_GainFocus_On_ToggleOpen = 1
 nnoremap <silent> <F8> :TlistToggle<CR>
+
+" SimpylFold plugin
+" the following 2 lines are required
+" see https://github.com/tmhedberg/SimpylFold/issues/27
+autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
+autocmd BufWinLeave *.py setlocal foldexpr< foldmethod<
