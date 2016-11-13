@@ -61,7 +61,9 @@ au BufNewFile,BufRead *.js, *.html, *.css
 set foldmethod=indent
 set foldlevel=99 "start by not closing any folds
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""" Thoughtbot .vimrc """""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set showcmd
 set nowritebackup
 set autowrite
@@ -131,3 +133,6 @@ if has("gui_running")
   \ '\=eval(submatch(0)-1)',
   \ 'g')<CR>
 endif
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
