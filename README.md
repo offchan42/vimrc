@@ -9,7 +9,7 @@ There are two versions:
 * **Basic**: If you want something small just copy [basic.vim](vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
 * **Awesome**: This includes a ton of useful plugins, color schemes and configurations
 
-I would of course recommend using the awesome version.c
+I would of course recommend using the awesome version.
 
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
