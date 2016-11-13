@@ -79,7 +79,8 @@ function! HLNext (blinktime)
 endfunction
 
 set cursorline
-nnoremap Q <esc>:echo " < < ===== CHECK CAPSLOCK ===== > > "<cr>
+nnoremap Q <esc>:echo "'Q' is for useless Ex mode.
+      \ < < ===== CHECK CAPS LOCK ===== > > "<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""" Thoughtbot .vimrc """""""""""
