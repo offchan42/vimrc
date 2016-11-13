@@ -46,3 +46,6 @@
 [submodule "sources_non_forked/syntastic"]
 	path = sources_non_forked/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "sources_non_forked/vim-smooth-scroll"]
+	path = sources_non_forked/vim-smooth-scroll
+	url = https://github.com/terryma/vim-smooth-scroll.git
