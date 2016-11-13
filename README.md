@@ -71,11 +71,11 @@ Simply just do a git pull rebase!
 
 ## Some screenshots
 
-**LATEST SCREENSHOT**: This is my current working gVim on Windows. It uses dark
-solarized colorscheme.
+**LATEST SCREENSHOT**: This is my current working gVim on Windows. It uses **dark
+solarized** colorscheme.
 ![Screenshot 0](screenshots/2016-11-14_02-29-15.png?raw=true)
 
-Colors when editing a Python file:
+Colors when editing a Python file of a **peaksea** colorscheme
 ![Screenshot 1](http://files1.wedoist.com/e952fdb343b1e617b90d256e474d0370/as/screenshot_1.png)
 
 Opening recently opened files [mru.vim](https://github.com/vim-scripts/mru.vim):
@@ -84,10 +84,11 @@ Opening recently opened files [mru.vim](https://github.com/vim-scripts/mru.vim):
 [NERD Tree](https://github.com/scrooloose/nerdtree) plugin in a terminal window:
 ![Screenshot 3](http://files1.wedoist.com/b1509d7ed9e9f357e8d04797f9fad67b/as/screenshot3.png)
 
-This vimrc even works on Windows!
+Old Windows showoff time!
 ![Screenshot 4](http://files1.wedoist.com/4e85163d97b81422240c822c82022f2f/as/screenshot_4.png)
 
-Distraction free mode using [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2):
+Distraction free mode using [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2)
+(Default key to trigger is `<leader>z`):
 ![Screenshot 5](https://d2dq6e731uoz0t.cloudfront.net/a5182977c3d6c2a6cd3f9e97398ca8ca/as/zen_mode.jpg)
 
 
