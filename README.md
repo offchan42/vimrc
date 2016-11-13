@@ -71,6 +71,10 @@ Simply just do a git pull rebase!
 
 ## Some screenshots
 
+**LATEST SCREENSHOT**: This is the solarized colorscheme that I like the most!
+It's a screenshot of gVim on my Windows machine.
+![Screenshot 0](screenshots/2016-11-14_02-29-15.png)
+
 Colors when editing a Python file:
 ![Screenshot 1](http://files1.wedoist.com/e952fdb343b1e617b90d256e474d0370/as/screenshot_1.png)
 
