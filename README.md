@@ -120,10 +120,14 @@ Remove all clutter and focus only on the essential. Similar to iA Writer or Writ
 ## Included color schemes
 
 * [peaksea](https://github.com/vim-scripts/peaksea): amix' favorite
-* [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) Off's favorite! (this is the default theme for this repository)
+* [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized):
+Off's favorite! (this is the default colorscheme for this repository)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
+* [zenburn](https://github.com/jnurmine/Zenburn): This colorscheme is used by
+  default if you do not have a GUI version running on your system.
+  AKA you run Vim in a terminal of some sort.
 
 
 ## Included modes
