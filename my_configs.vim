@@ -69,6 +69,7 @@ set nojoinspaces
 
 set textwidth=80
 set colorcolumn=+1
+"autocmd WinEnter * call matchadd('ColorColumn', '\%81v', 100)
 
 set number
 set numberwidth=5
