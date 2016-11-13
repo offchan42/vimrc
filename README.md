@@ -125,7 +125,7 @@ Off's favorite! (this is the default colorscheme for this repository)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
-* [zenburn](https://github.com/jnurmine/Zenburn): This colorscheme is used by
+* [Zenburn](https://github.com/jnurmine/Zenburn): This colorscheme is used by
   default if you do not have a GUI version running on your system.
   AKA you run Vim in a terminal of some sort.
 
