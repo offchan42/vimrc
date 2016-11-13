@@ -37,6 +37,10 @@ scriptencoding utf-8
 set listchars=trail:·,precedes:«,extends:»,tab:→\ 
 set list
 
+" Inserting blank lines without going into insert mode
+nmap <S-Enter> O<Esc>j
+nmap <CR> o<Esc>k
+
 " Python PEP8 style guide
 au BufNewFile,BufRead *.py
   \ set tabstop=4 |
