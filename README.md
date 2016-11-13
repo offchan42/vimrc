@@ -38,7 +38,7 @@ Try entering `:py print 2**10` and if it outputs `1024` then you are good to go.
 
 5. I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
 (it's free and awesome font for writing and programming).
-The Awesome vimrc is already setup to try to use it.
+The Ultimate vimrc is already setup to try to use it.
 I suggest you to download the font from this less troublesome repository:
 https://github.com/adobe-fonts/source-code-pro
 
