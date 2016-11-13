@@ -79,6 +79,7 @@ function! HLNext (blinktime)
 endfunction
 
 set cursorline
+nnoremap Q <esc>:echo " < < ===== CHECK CAPSLOCK ===== > > "<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""" Thoughtbot .vimrc """""""""""
