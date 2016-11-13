@@ -118,19 +118,19 @@ command Gci Gcommit
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => lightline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:lightline = {
-      \ 'colorscheme': 'solarized',
-      \ }
+" let g:lightline = {
+"       \ 'colorscheme': 'solarized',
+"       \ }
 
+let readonlySymbol = has('gui_running') ? "🔒" : "READ_ONLY"
 let g:lightline = {
       \ 'colorscheme': 'solarized',
       \ 'active': {
       \   'left': [ ['mode', 'paste'],
       \             ['fugitive', 'readonly', 'filename', 'modified'] ],
-      \   'right': [ [ 'lineinfo' ], ['percent'] ]
       \ },
       \ 'component': {
-      \   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
+      \   'readonly': '%{&filetype=="help"?"":&readonly?readonlySymbol:""}',
       \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
       \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
       \ },
