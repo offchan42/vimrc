@@ -49,3 +49,6 @@
 [submodule "sources_non_forked/vim-smooth-scroll"]
 	path = sources_non_forked/vim-smooth-scroll
 	url = https://github.com/terryma/vim-smooth-scroll.git
+[submodule "sources_non_forked/lightline.vim"]
+	path = sources_non_forked/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
