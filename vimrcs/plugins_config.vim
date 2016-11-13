@@ -338,3 +338,9 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 " see https://github.com/tmhedberg/SimpylFold/issues/27
 autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
 autocmd BufWinLeave *.py setlocal foldexpr< foldmethod<
+
+" vim-smooth-scroll
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 10, 2)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 10, 2)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 3)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 3)<CR>
