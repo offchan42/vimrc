@@ -198,6 +198,30 @@ nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 let g:gitgutter_enabled=1
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-expand-region
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This plugin can be invoked via + or _ symbol, it would wrap text objects
+" like Ctrl-W in JetBrains-like IDE does
+let g:expand_region_text_objects = {
+  \ 'iw': 0,
+  \ 'iW': 0,
+  \ 'i"': 0,
+  \ 'a"': 0,
+  \ "i'": 0,
+  \ "a'": 0,
+  \ 'i]': 1,
+  \ 'a]': 1,
+  \ 'ib': 1,
+  \ 'ab': 1,
+  \ 'iB': 1,
+  \ 'aB': 1,
+  \ 'il': 0,
+  \ 'ip': 1,
+  \ 'ie': 0,
+  \ 'ii': 1,
+  \ 'ai': 1,
+  \ }
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MY ADDED PLUGINS "
