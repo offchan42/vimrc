@@ -71,8 +71,8 @@ Simply just do a git pull rebase!
 
 ## Some screenshots
 
-**LATEST SCREENSHOT**: This is the solarized colorscheme that I like the most!
-It's a screenshot of gVim on my Windows machine.
+**LATEST SCREENSHOT**: This is my current working gVim on Windows. It uses dark
+solarized colorscheme.
 ![Screenshot 0](screenshots/2016-11-14_02-29-15.png?raw=true)
 
 Colors when editing a Python file:
