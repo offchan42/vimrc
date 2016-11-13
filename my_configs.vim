@@ -76,8 +76,9 @@ set expandtab
 set nojoinspaces
 
 set textwidth=80
+"highlight ColorColumn ctermbg='magenta' guibg='magenta'
 set colorcolumn=+1
-"autocmd WinEnter * call matchadd('ColorColumn', '\%81v', 100)
+"autocmd BufWinEnter * call matchadd('ColorColumn', '\%81v', 100)
 
 set number
 set numberwidth=5
