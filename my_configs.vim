@@ -34,6 +34,8 @@ set splitright splitbelow
 " Allow working with Unicode characters
 scriptencoding utf-8
 "set listchars=trail:·,precedes:«,extends:»,eol:¬,tab:▸\ 
+set listchars=trail:·,precedes:«,extends:»,tab:→\ 
+set list
 
 " Python PEP8 style guide
 au BufNewFile,BufRead *.py
