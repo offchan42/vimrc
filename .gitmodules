@@ -61,3 +61,6 @@
 [submodule "sources_non_forked/vim-textobj-parameter"]
 	path = sources_non_forked/vim-textobj-parameter
 	url = https://github.com/sgur/vim-textobj-parameter.git
+[submodule "sources_non_forked/vim-textobj-variable-segment"]
+	path = sources_non_forked/vim-textobj-variable-segment
+	url = https://github.com/Julian/vim-textobj-variable-segment.git
