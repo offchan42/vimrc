@@ -63,11 +63,12 @@ real Bash!
 
 ## How to update to latest version?
 
-Simply just do a git pull rebase!
+Simply just do a git pull rebase and update the submodules!
 
     cd ~/.vim_runtime
     git pull --rebase
-
+    git submodule foreach git pull origin master
+    cd ~-
 
 ## Some screenshots
 
