@@ -52,10 +52,10 @@ au BufNewFile,BufRead *.py
   \ set fileformat=unix
 
 " Web dev style
-au BufNewFile,BufRead *.js, *.html, *.css
-  \ set tabstop=2 |
-  \ set softtabstop=2 |
-  \ set shiftwidth=2
+" au BufNewFile,BufRead *.js, *.html, *.css
+"   \ set tabstop=2 |
+"   \ set softtabstop=2 |
+"   \ set shiftwidth=2
 
 " Enable folding
 set foldmethod=indent
