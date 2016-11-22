@@ -64,3 +64,6 @@
 [submodule "sources_non_forked/vim-textobj-variable-segment"]
 	path = sources_non_forked/vim-textobj-variable-segment
 	url = https://github.com/Julian/vim-textobj-variable-segment.git
+[submodule "sources_non_forked/tabular"]
+	path = sources_non_forked/tabular
+	url = https://github.com/godlygeek/tabular.git
