@@ -311,9 +311,9 @@ let g:indent_guides_enable_on_vim_startup = 0
 
 " vim-easymotion plugin
 let g:EasyMotion_smartcase = 1
-" this replaces the default substitute behavior by making 's' do sneak search
+" this replaces the default substitute behavior by making '<leader>s' do sneak search
 " type 2 characters and it will search across windows wonderfully
-nmap s <Plug>(easymotion-overwin-f2)
+nmap <Leader>s <Plug>(easymotion-overwin-f2)
 xmap <Leader>s <Plug>(easymotion-bd-f2)
 omap <Leader>s <Plug>(easymotion-bd-f2)
 
