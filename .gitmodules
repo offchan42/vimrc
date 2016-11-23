@@ -67,3 +67,6 @@
 [submodule "sources_non_forked/tabular"]
 	path = sources_non_forked/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "sources_non_forked/vim-visual-increment"]
+	path = sources_non_forked/vim-visual-increment
+	url = https://github.com/triglav/vim-visual-increment.git

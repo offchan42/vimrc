@@ -349,3 +349,5 @@ noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 3)<CR>
 let g:vim_markdown_conceal = 0
 let g:vim_markdown_new_list_item_indent = 2
 
+" vim-visual-increment
+set nrformats=alpha,octal,hex
