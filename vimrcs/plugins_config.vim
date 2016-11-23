@@ -318,7 +318,7 @@ xmap <Leader>s <Plug>(easymotion-bd-f2)
 omap <Leader>s <Plug>(easymotion-bd-f2)
 
 " taglist.vim plugin
-" the following activate taglist on Windows OS, 
+" the following activate taglist on Windows OS,
 " you should install it on Unix-like system using different methods
 if !executable('ctags')
   if has("win32")
