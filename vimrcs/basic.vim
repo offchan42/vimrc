@@ -261,6 +261,8 @@ map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
 
 " Switch CWD to the directory of the open buffer
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
+" CD into temp directory
+map <leader>cdt :cd ~/.vim_runtime/temp_dirs/<cr>:pwd<cr>
 
 " Specify the behavior when switching between buffers
 try
