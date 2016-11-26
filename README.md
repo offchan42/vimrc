@@ -32,11 +32,12 @@ https://github.com/Shougo/neocomplete.vim#requirements for further instructions.
 can be found at http://ctags.sourceforge.net/ (Don't install if you use Windows
 because the Windows version is already installed inside this repository)
 
-3. If you want to use Python's Omni autocomplete feature with **CTRL-X CTRL-O**
+3. deprecated: ~~If you want to use Python's Omni autocomplete feature with **CTRL-X CTRL-O**
 then install Python 2 and set **PYTHONHOME** to the directory where you have
 **python.exe** lying around. Refer to http://stackoverflow.com/a/40566169/2593810 for more
 information.
-Try entering `:py print 2**10` and if it outputs `1024` then you are good to go.
+Try entering `:py print 2**10` and if it outputs `1024` then you are good to
+go.~~ Please use **jedi-vim** instead.
 
 4. If you want to use flake8 python static file checkers (**F7**) please use
    python **pip** or any python environment manager to install **flake8** like
