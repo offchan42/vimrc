@@ -43,7 +43,7 @@ map <leader>f :MRU<CR>
 let g:ctrlp_working_path_mode = 0
 
 let g:ctrlp_map = '<c-p>'
-map <leader>j :CtrlPMixed<cr>
+"map <leader>j :CtrlPMixed<cr>
 "map <c-b> :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
