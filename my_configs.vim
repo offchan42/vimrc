@@ -137,7 +137,7 @@ nnoremap <Up> 15<c-y>
 nnoremap <Down> 15<c-e>
 
 " Run commands on the shell
-nnoremap <Leader>r q:i!
+"nnoremap <Leader>r q:i!
 
 " Always use vertical diffs
 set diffopt+=vertical
