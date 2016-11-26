@@ -184,10 +184,10 @@ let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 
 " Custom CoffeeScript SyntasticCheck
 func! SyntasticCheckCoffeescript()
-    let l:filename = substitute(expand("%:p"), '\(\w\+\)\.coffee', '.coffee.\1.js', '')
-    execute "tabedit " . l:filename
-    execute "SyntasticCheck"
-    execute "Errors"
+  let l:filename = substitute(expand("%:p"), '\(\w\+\)\.coffee', '.coffee.\1.js', '')
+  execute "tabedit " . l:filename
+  execute "SyntasticCheck"
+  execute "Errors"
 endfunc
 nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 
@@ -204,24 +204,24 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 " This plugin can be invoked via + or _ symbol, it would wrap text objects
 " like Ctrl-W in JetBrains-like IDE does
 let g:expand_region_text_objects = {
-  \ 'iw': 0,
-  \ 'iW': 0,
-  \ 'i"': 1,
-  \ 'a"': 1,
-  \ "i'": 1,
-  \ "a'": 1,
-  \ 'i]': 1,
-  \ 'a]': 1,
-  \ 'ib': 1,
-  \ 'ab': 1,
-  \ 'iB': 1,
-  \ 'aB': 1,
-  \ 'il': 0,
-  \ 'ip': 1,
-  \ 'ie': 0,
-  \ 'ii': 1,
-  \ 'ai': 1,
-  \ }
+      \ 'iw': 0,
+      \ 'iW': 0,
+      \ 'i"': 1,
+      \ 'a"': 1,
+      \ "i'": 1,
+      \ "a'": 1,
+      \ 'i]': 1,
+      \ 'a]': 1,
+      \ 'ib': 1,
+      \ 'ab': 1,
+      \ 'iB': 1,
+      \ 'aB': 1,
+      \ 'il': 0,
+      \ 'ip': 1,
+      \ 'ie': 0,
+      \ 'ii': 1,
+      \ 'ai': 1,
+      \ }
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MY ADDED PLUGINS "
@@ -245,10 +245,10 @@ let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
 
 " Define dictionary.
 let g:neocomplete#sources#dictionary#dictionaries = {
-    \ 'default' : '',
-    \ 'vimshell' : $HOME.'/.vimshell_hist',
-    \ 'scheme' : $HOME.'/.gosh_completions'
-        \ }
+      \ 'default' : '',
+      \ 'vimshell' : $HOME.'/.vimshell_hist',
+      \ 'scheme' : $HOME.'/.gosh_completions'
+      \ }
 
 " Define keyword.
 if !exists('g:neocomplete#keyword_patterns')
@@ -306,14 +306,15 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 " neocomplete and jedi-vim (Python)
 if !exists('g:neocomplete#force_omni_input_patterns')
-    let g:neocomplete#force_omni_input_patterns = {}
+  let g:neocomplete#force_omni_input_patterns = {}
 endif
 autocmd FileType python setlocal omnifunc=jedi#completions
 let g:jedi#completions_enabled = 0
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#smart_auto_mappings = 0
 let g:neocomplete#force_omni_input_patterns.python =
-      \ '\%([^. \t]\.\|^\s*@\|^\s*from\s.\+import \|^\s*from \|^\s*import \)\w*'
+      \ '\h\w*\|[^. \t]\.\w*'
+" \ '\%([^. \t]\.\|^\s*@\|^\s*from\s.\+import \|^\s*from \|^\s*import \)\w*'
 " alternative pattern: '\h\w*\|[^. \t]\.\w*'
 let g:jedi#popup_select_first = 0
 
