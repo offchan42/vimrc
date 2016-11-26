@@ -133,8 +133,8 @@ inoremap <S-Tab> <c-p>
 "nnoremap <Down> :echoe "Use j"<CR>
 nnoremap <Left> B
 nnoremap <Right> W
-nnoremap <Up> 15<c-y>
-nnoremap <Down> 15<c-e>
+nnoremap <Up> 5<c-y>
+nnoremap <Down> 5<c-e>
 
 " Run commands on the shell
 "nnoremap <Leader>r q:i!
