@@ -18,6 +18,12 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	cd ~/.vim_runtime && git submodule update --init && cd ~-
 
+5. I highly recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
+(it's free and awesome font for writing and programming).
+The Ultimate vimrc is already setup to try to use it.
+You can download it freely from this repository:
+https://github.com/adobe-fonts/source-code-pro
+
 1. If you want to use neocomplete (Autocomplete) plugin, you'll
 need to have Lua installed, please refer to
 https://github.com/Shougo/neocomplete.vim#requirements for further instructions.
@@ -35,12 +41,6 @@ Try entering `:py print 2**10` and if it outputs `1024` then you are good to go.
 4. If you want to use flake8 python static file checkers (**F7**) please use
    python **pip** or any python environment manager to install **flake8** like
    so: `pip install flake8`
-
-5. I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
-(it's free and awesome font for writing and programming).
-The Ultimate vimrc is already setup to try to use it.
-I suggest you to download the font from this less troublesome repository:
-https://github.com/adobe-fonts/source-code-pro
 
 6. To use **jedi-vim** plugin, you must have **jedi** installed. Jedi is an
    awesome autocompletion/static analysis library for Python.
