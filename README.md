@@ -42,6 +42,13 @@ The Ultimate vimrc is already setup to try to use it.
 I suggest you to download the font from this less troublesome repository:
 https://github.com/adobe-fonts/source-code-pro
 
+6. To use **jedi-vim** plugin, you must have **jedi** installed. Jedi is an
+   awesome autocompletion/static analysis library for Python.
+   Either run `git submodule update --init --recursive` inside
+   *sources_non_forked/jedi-vim/* or `pip install jedi` will work.
+   If you are using **Anaconda** package manager, **jedi** will already be installed
+   for you.
+
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
 
