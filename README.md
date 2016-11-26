@@ -16,7 +16,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 
 	git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
-	cd ~/.vim_runtime && git submodule update --init --recursive && cd ~-
+	cd ~/.vim_runtime && git submodule update --init && cd ~-
 
 1. If you want to use neocomplete (Autocomplete) plugin, you'll
 need to have Lua installed, please refer to
