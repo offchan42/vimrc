@@ -312,8 +312,9 @@ autocmd FileType python setlocal omnifunc=jedi#completions
 let g:jedi#completions_enabled = 0
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#smart_auto_mappings = 0
-let g:neocomplete#force_omni_input_patterns.python =
-      \ '\h\w*\|[^. \t]\.\w*'
+"let g:jedi#popup_on_dot = 0
+"let g:neocomplete#force_omni_input_patterns.python =
+"      \ '\h\w*\|[^. \t]\.\w*'
 " \ '\%([^. \t]\.\|^\s*@\|^\s*from\s.\+import \|^\s*from \|^\s*import \)\w*'
 " alternative pattern: '\h\w*\|[^. \t]\.\w*'
 let g:jedi#popup_select_first = 0
