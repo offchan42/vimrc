@@ -97,3 +97,6 @@
 [submodule "sources_non_forked/nerdtree"]
 	path = sources_non_forked/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "sources_non_forked/emmet-vim"]
+	path = sources_non_forked/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
