@@ -53,7 +53,7 @@ go.~~ Please use **jedi-vim** instead.
    for you.
 
 7. To use **Ag** ([The Silver Searcher](https://github.com/ggreer/the_silver_searcher)),
-    you need to install it. It's like **grep** but is faster.
+   you need to install it. It's like **grep** but is faster.
 
    If you are on Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
 
@@ -174,8 +174,8 @@ important for you.
 You can also install your own plugins, for instance, via pathogen we can install
 [vim-rails](https://github.com/tpope/vim-rails):
 
-   cd ~/.vim_runtime
-   git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
+    cd ~/.vim_runtime
+    git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
 
 Now you have vim-rails installed ;-)
 
@@ -212,49 +212,49 @@ has one mapping. (`<leader>z`)
 
 Fast saving of a buffer (`<leader>w`):
 
-  nmap <leader>w :w!<cr>
+    nmap <leader>w :w!<cr>
 
 Disable highlight when `<leader><cr>` is pressed:
-  
-  map <silent> <leader><cr> :noh<cr>
+
+    map <silent> <leader><cr> :noh<cr>
 
 Smart way to move between windows (`<ctrl>j` etc.):
 
     map <C-j> <C-W>j
-  map <C-k> <C-W>k
-  map <C-h> <C-W>h
-  map <C-l> <C-W>l
+    map <C-k> <C-W>k
+    map <C-h> <C-W>h
+    map <C-l> <C-W>l
 
 Closing of current buffer(s) (`<leader>bd` and (`<leader>ba`)):
-  
-  " Close current buffer
-  map <leader>bd :Bclose<cr>
-  
-  " Close all buffers
-  map <leader>ba :1,1000 bd!<cr>
-  
+
+    " Close current buffer
+    map <leader>bd :Bclose<cr>
+
+    " Close all buffers
+    map <leader>ba :1,1000 bd!<cr>
+
 Useful mappings for managing tabs:
-  
-  map <leader>tn :tabnew<cr>
-  map <leader>to :tabonly<cr>
-  map <leader>tc :tabclose<cr>
-  map <leader>tm :tabmove 
-  
-  " Opens a new tab with the current buffer's path
-  " Super useful when editing files in the same directory
-  map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
-  
+
+    map <leader>tn :tabnew<cr>
+    map <leader>to :tabonly<cr>
+    map <leader>tc :tabclose<cr>
+    map <leader>tm :tabmove 
+
+    " Opens a new tab with the current buffer's path
+    " Super useful when editing files in the same directory
+    map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
+
 Switch CWD to the directory of the open buffer:
-  
-  map <leader>cd :cd %:p:h<cr>:pwd<cr>
-  
+
+    map <leader>cd :cd %:p:h<cr>:pwd<cr>
+
 Remove the Windows ^M - when the encodings gets messed up:
-  
-  noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
-  
+
+    noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
+
 Toggle paste mode on and off:
-  
-  map <leader>pp :setlocal paste!<cr>
+
+    map <leader>pp :setlocal paste!<cr>
 
 
 ### Insert mode mappings
@@ -268,16 +268,16 @@ Insert the current date and time (useful for timestamps):
 
 Visual mode pressing `*` or `#` searches for the current selection:
 
-  vnoremap <silent> * :call VisualSelection('f')<CR>
-  vnoremap <silent> # :call VisualSelection('b')<CR>
+    vnoremap <silent> * :call VisualSelection('f')<CR>
+    vnoremap <silent> # :call VisualSelection('b')<CR>
 
 When you press gv you vimgrep after the selected text:
 
-  vnoremap <silent> gv :call VisualSelection('gv')<CR>
+    vnoremap <silent> gv :call VisualSelection('gv')<CR>
 
 When you press `<leader>r` you can search and replace the selected text:
 
-  vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
+    vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
 
 Surround the visual selection in parenthesis/brackets/etc.:
 
@@ -287,7 +287,7 @@ Surround the visual selection in parenthesis/brackets/etc.:
     vnoremap $$ <esc>`>a"<esc>`<i"<esc>
     vnoremap $q <esc>`>a'<esc>`<i'<esc>
     vnoremap $e <esc>`>a"<esc>`<i"<esc>
-  
+
 
 ### Command line mappings
 
