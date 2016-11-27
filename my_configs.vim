@@ -22,7 +22,7 @@ map Y y$
 "nnoremap k gk
 
 " Force saving files that require root permission
-cmap w!! %!sudo tee > /dev/null %
+"cmap w!! %!sudo tee > /dev/null %
 
 " The smash escape
 inoremap jk <Esc>
