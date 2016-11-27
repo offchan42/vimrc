@@ -14,9 +14,11 @@ I would of course recommend using the awesome version.
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-    git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
-    sh ~/.vim_runtime/install_awesome_vimrc.sh
-    cd ~/.vim_runtime && git submodule update --init && cd ~-
+```bash
+git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+cd ~/.vim_runtime && git submodule update --init && cd ~-
+```
 
 5. I highly recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
 (it's free and awesome font for writing and programming).
@@ -71,8 +73,10 @@ The basic version is basically just one file and no plugins. You can check out
 This is useful to install on remote servers where you don't need many plugins
 and you don't do many edits.
 
-    git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
-    sh ~/.vim_runtime/install_basic_vimrc.sh
+```bash
+git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_basic_vimrc.sh
+```
 
 
 ## How to install on Windows?
@@ -89,10 +93,12 @@ real Bash!
 
 Simply just do a git pull rebase and update the submodules!
 
-    cd ~/.vim_runtime
-    git pull --rebase
-    git submodule foreach git pull origin master
-    cd ~-
+```bash
+cd ~/.vim_runtime
+git pull --rebase
+git submodule foreach git pull origin master
+cd ~-
+```
 
 ## Some screenshots
 
@@ -174,8 +180,10 @@ important for you.
 You can also install your own plugins, for instance, via pathogen we can install
 [vim-rails](https://github.com/tpope/vim-rails):
 
-    cd ~/.vim_runtime
-    git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
+```bash
+cd ~/.vim_runtime
+git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
+```
 
 Now you have vim-rails installed ;-)
 
@@ -186,19 +194,25 @@ Now you have vim-rails installed ;-)
 
 Open [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) and see and manage the current buffers (`<leader>o`):
 
-    map <leader>o :BufExplorer<cr>
+```viml
+map <leader>o :BufExplorer<cr>
+```
 
 Open [MRU.vim](https://github.com/vim-scripts/mru.vim) and see the recently open files (`<leader>f`):
 
-    map <leader>f :MRU<CR>
+```viml
+map <leader>f :MRU<CR>
+```
 
 Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin (`<leader>j`)
 
 Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
 
-    map <leader>nt :NERDTreeTabsToggle<cr>
-    map <leader>nf :NERDTreeTabsFind<cr>
-    map <leader>nn :NERDTreeFocusToggle<cr>
+```viml
+map <leader>nt :NERDTreeTabsToggle<cr>
+map <leader>nf :NERDTreeTabsFind<cr>
+map <leader>nn :NERDTreeFocusToggle<cr>
+```
 
 [goyo.vim](https://github.com/junegunn/goyo.vim) and
 [vim-zenroom2](https://github.com/amix/vim-zenroom2) lets you only focus on one
@@ -206,103 +220,132 @@ thing at a time. It removes all the distractions and centers the content. It has
 a special look when editing Markdown, reStructuredText and textfiles. It only
 has one mapping. (`<leader>z`)
 
-    map <leader>z :Goyo<cr>
+```viml
+map <leader>z :Goyo<cr>
+```
 
 ### Normal mode mappings
 
 Fast saving of a buffer (`<leader>w`):
 
-    nmap <leader>w :w!<cr>
+```viml
+nmap <leader>w :w!<cr>
+```
 
 Disable highlight when `<leader><cr>` is pressed:
 
-    map <silent> <leader><cr> :noh<cr>
+```viml
+map <silent> <leader><cr> :noh<cr>
+```
 
 Smart way to move between windows (`<ctrl>j` etc.):
 
-    map <C-j> <C-W>j
-    map <C-k> <C-W>k
-    map <C-h> <C-W>h
-    map <C-l> <C-W>l
+```viml
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+```
 
 Closing of current buffer(s) (`<leader>bd` and (`<leader>ba`)):
 
-    " Close current buffer
-    map <leader>bd :Bclose<cr>
-
-    " Close all buffers
-    map <leader>ba :1,1000 bd!<cr>
+```viml
+" Close current buffer
+map <leader>bd :Bclose<cr>
+" Close all buffers
+map <leader>ba :1,1000 bd!<cr>
+```
 
 Useful mappings for managing tabs:
 
-    map <leader>tn :tabnew<cr>
-    map <leader>to :tabonly<cr>
-    map <leader>tc :tabclose<cr>
-    map <leader>tm :tabmove 
-
-    " Opens a new tab with the current buffer's path
-    " Super useful when editing files in the same directory
-    map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
+```viml
+map <leader>tn :tabnew<cr>
+map <leader>to :tabonly<cr>
+map <leader>tc :tabclose<cr>
+map <leader>tm :tabmove 
+" Opens a new tab with the current buffer's path
+" Super useful when editing files in the same directory
+map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
+```
 
 Switch CWD to the directory of the open buffer:
 
-    map <leader>cd :cd %:p:h<cr>:pwd<cr>
+```viml
+map <leader>cd :cd %:p:h<cr>:pwd<cr>
+```
 
 Remove the Windows ^M - when the encodings gets messed up:
 
-    noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
+```viml
+noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
+```
 
 Toggle paste mode on and off:
 
-    map <leader>pp :setlocal paste!<cr>
+```viml
+map <leader>pp :setlocal paste!<cr>
+```
 
 
 ### Insert mode mappings
 
 Insert the current date and time (useful for timestamps):
 
-    iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+```viml
+iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+```
 
 
 ### Visual mode mappings
 
 Visual mode pressing `*` or `#` searches for the current selection:
 
-    vnoremap <silent> * :call VisualSelection('f')<CR>
-    vnoremap <silent> # :call VisualSelection('b')<CR>
+```viml
+vnoremap <silent> * :call VisualSelection('f')<CR>
+vnoremap <silent> # :call VisualSelection('b')<CR>
+```
 
 When you press gv you vimgrep after the selected text:
 
-    vnoremap <silent> gv :call VisualSelection('gv')<CR>
+```viml
+vnoremap <silent> gv :call VisualSelection('gv')<CR>
+```
 
 When you press `<leader>r` you can search and replace the selected text:
 
-    vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
+```viml
+vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
+```
 
 Surround the visual selection in parenthesis/brackets/etc.:
 
-    vnoremap $1 <esc>`>a)<esc>`<i(<esc>
-    vnoremap $2 <esc>`>a]<esc>`<i[<esc>
-    vnoremap $3 <esc>`>a}<esc>`<i{<esc>
-    vnoremap $$ <esc>`>a"<esc>`<i"<esc>
-    vnoremap $q <esc>`>a'<esc>`<i'<esc>
-    vnoremap $e <esc>`>a"<esc>`<i"<esc>
+```viml
+vnoremap $1 <esc>`>a)<esc>`<i(<esc>
+vnoremap $2 <esc>`>a]<esc>`<i[<esc>
+vnoremap $3 <esc>`>a}<esc>`<i{<esc>
+vnoremap $$ <esc>`>a"<esc>`<i"<esc>
+vnoremap $q <esc>`>a'<esc>`<i'<esc>
+vnoremap $e <esc>`>a"<esc>`<i"<esc>
+```
 
 
 ### Command line mappings
 
 $q is super useful when browsing on the command line. It deletes everything until the last slash:
 
-    cno $q <C-\>eDeleteTillSlash()<cr>
+```viml
+cno $q <C-\>eDeleteTillSlash()<cr>
+```
 
 Bash like keys for the command line:
 
-    cnoremap <C-A>    <Home>
-    cnoremap <C-E>    <End>
-    cnoremap <C-K>    <C-U>
-
-    cnoremap <C-P> <Up>
-    cnoremap <C-N> <Down>
+```viml
+cnoremap <C-A>    <Home>
+cnoremap <C-E>    <End>
+cnoremap <C-K>    <C-U>
+cnoremap <C-P> <Up>
+cnoremap <C-N> <Down>
+```
 
 Write the file as sudo (only on Unix). Super useful when you open a file and you
 don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki/Su-write):
@@ -313,14 +356,18 @@ don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki
 ### Spell checking (currently disabled, please use default Vim keys)
 Pressing `<leader>ss` will toggle and untoggle spell checking
 
-    map <leader>ss :setlocal spell!<cr>
+```viml
+map <leader>ss :setlocal spell!<cr>
+```
 
 Shortcuts using `<leader>` instead of special chars
 
-    map <leader>sn ]s
-    map <leader>sp [s
-    map <leader>sa zg
-    map <leader>s? z=
+```viml
+map <leader>sn ]s
+map <leader>sp [s
+map <leader>sa zg
+map <leader>s? z=
+```
 
 ### Cope
 Do `:help cope` if you are unsure what cope is. It's super useful!
