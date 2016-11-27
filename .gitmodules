@@ -133,3 +133,6 @@
 [submodule "sources_non_forked/goyo.vim"]
 	path = sources_non_forked/goyo.vim
 	url = https://github.com/junegunn/goyo.vim.git
+[submodule "sources_non_forked/ack.vim"]
+	path = sources_non_forked/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
