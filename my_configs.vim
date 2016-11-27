@@ -108,7 +108,7 @@ set relativenumber
 " autocmd InsertLeave * :set number relativenumber
 " autocmd FocusLost * :set norelativenumber
 " autocmd FocusGained * :set relativenumber
-nnoremap <c-l> :set relativenumber!<cr><c-l>
+" nnoremap <c-l> :set relativenumber!<cr><c-l>
 
 " Tab completion
 " will insert tab if the preceding character is a space or a tab
