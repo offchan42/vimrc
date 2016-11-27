@@ -106,3 +106,6 @@
 [submodule "sources_non_forked/vim-commentary"]
 	path = sources_non_forked/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "sources_non_forked/vim-repeat"]
+	path = sources_non_forked/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
