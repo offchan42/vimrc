@@ -53,7 +53,7 @@ go.~~ Please use **jedi-vim** instead.
    for you.
 
 7. To use **Ag** ([The Silver Searcher](https://github.com/ggreer/the_silver_searcher)),
-   you need to install it. It's like **grep** but is faster.
+    you need to install it. It's like **grep** but is faster.
 
    If you are on Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
 
@@ -71,8 +71,8 @@ The basic version is basically just one file and no plugins. You can check out
 This is useful to install on remote servers where you don't need many plugins
 and you don't do many edits.
 
-   git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
-   sh ~/.vim_runtime/install_basic_vimrc.sh
+    git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
+    sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
 ## How to install on Windows?
