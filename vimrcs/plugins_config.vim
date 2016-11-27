@@ -325,6 +325,8 @@ let g:jedi#popup_select_first = 0
 let g:indent_guides_enable_on_vim_startup = 0
 "let g:indent_guides_guide_size = 2
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " vim-easymotion plugin
 let g:EasyMotion_smartcase = 1
 " this replaces the default substitute behavior by making '<leader>s' do sneak search
@@ -332,6 +334,15 @@ let g:EasyMotion_smartcase = 1
 nmap <Leader>s <Plug>(easymotion-overwin-f2)
 xmap <Leader>s <Plug>(easymotion-bd-f2)
 omap <Leader>s <Plug>(easymotion-bd-f2)
+
+map <Leader><Leader>l <Plug>(easymotion-lineforward)
+map <Leader><Leader>j <Plug>(easymotion-j)
+map <Leader><Leader>k <Plug>(easymotion-k)
+map <Leader><Leader>h <Plug>(easymotion-linebackward)
+
+let g:EasyMotion_startofline = 0 " keep cursor column when jk motion
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " taglist.vim plugin
 " the following activate taglist on Windows OS,
