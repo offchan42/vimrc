@@ -171,4 +171,5 @@ inoremap <c-v> <c-r>*
 
 " copy this buffer into a new temporary tab
 nnoremap <leader>co ggVG""y``:tabnew<cr>:set syntax=qf<cr>""pgg
+vnoremap <leader>co ""y``:tabnew<cr>:set syntax=qf<cr>""pgg
 
