@@ -91,3 +91,6 @@
 [submodule "sources_non_forked/auto-pairs"]
 	path = sources_non_forked/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "sources_non_forked/vim-markdown"]
+	path = sources_non_forked/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
