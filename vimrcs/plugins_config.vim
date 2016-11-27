@@ -374,3 +374,8 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 command Ag :Ack!
+
+" incsearch.vim (https://github.com/haya14busa/incsearch.vim)
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
