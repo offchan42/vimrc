@@ -158,6 +158,8 @@ if has("gui_running")
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" change/rename current word and is repeatable using dot (.)
+nnoremap <leader>r *Ncgn
 
 " vim-indent-lines
 nnoremap <leader>ilt :IndentLinesToggle<cr>
