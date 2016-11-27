@@ -127,3 +127,6 @@
 [submodule "sources_non_forked/vim-surround"]
 	path = sources_non_forked/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "sources_non_forked/vim-zenroom2"]
+	path = sources_non_forked/vim-zenroom2
+	url = https://github.com/amix/vim-zenroom2.git
