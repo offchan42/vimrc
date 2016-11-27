@@ -103,12 +103,12 @@ set colorcolumn=+1
 
 set number
 set numberwidth=5
-set relativenumber
-" autocmd InsertEnter * :set number norelativenumber
-" autocmd InsertLeave * :set number relativenumber
-" autocmd FocusLost * :set norelativenumber
-" autocmd FocusGained * :set relativenumber
-" nnoremap <c-l> :set relativenumber!<cr><c-l>
+"set relativenumber
+"autocmd InsertEnter * :set number norelativenumber
+"autocmd InsertLeave * :set number relativenumber
+"autocmd FocusLost * :set norelativenumber
+"autocmd FocusGained * :set relativenumber
+"nnoremap <c-l> :set relativenumber!<cr><c-l>
 
 " Tab completion
 " will insert tab if the preceding character is a space or a tab
