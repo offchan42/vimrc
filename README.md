@@ -14,9 +14,9 @@ I would of course recommend using the awesome version.
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-  git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
-  sh ~/.vim_runtime/install_awesome_vimrc.sh
-  cd ~/.vim_runtime && git submodule update --init && cd ~-
+    git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
+    sh ~/.vim_runtime/install_awesome_vimrc.sh
+    cd ~/.vim_runtime && git submodule update --init && cd ~-
 
 5. I highly recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
 (it's free and awesome font for writing and programming).
@@ -58,7 +58,9 @@ go.~~ Please use **jedi-vim** instead.
    If you are on Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
 
    Runs `choco install ag` then you are ready to use Ag with **ack.vim** plugin in this
-   repository. **ack.vim** is a plugin made to integrate Ack and Ag into Vim.
+   repository.
+
+   **ack.vim** is a plugin made to integrate Ack and Ag into Vim.
 
    Trigger the plugin by hitting `<leader>a` and enter your search pattern.
 
@@ -69,15 +71,14 @@ The basic version is basically just one file and no plugins. You can check out
 This is useful to install on remote servers where you don't need many plugins
 and you don't do many edits.
 
-  git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
-  sh ~/.vim_runtime/install_basic_vimrc.sh
+   git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
+   sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
 ## How to install on Windows?
 
 Use [msysgit (Git Bash)](http://msysgit.github.com/) to checkout the repository
 and run the installation instructions above. No special instructions needed ;-)
-
 
 ## How to install on Linux
 
@@ -173,9 +174,9 @@ important for you.
 You can also install your own plugins, for instance, via pathogen we can install
 [vim-rails](https://github.com/tpope/vim-rails):
 
-  cd ~/.vim_runtime
-  git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
-  
+   cd ~/.vim_runtime
+   git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
+
 Now you have vim-rails installed ;-)
 
 
@@ -212,14 +213,14 @@ has one mapping. (`<leader>z`)
 Fast saving of a buffer (`<leader>w`):
 
   nmap <leader>w :w!<cr>
-  
+
 Disable highlight when `<leader><cr>` is pressed:
   
   map <silent> <leader><cr> :noh<cr>
 
 Smart way to move between windows (`<ctrl>j` etc.):
-  
-  map <C-j> <C-W>j
+
+    map <C-j> <C-W>j
   map <C-k> <C-W>k
   map <C-h> <C-W>h
   map <C-l> <C-W>l
