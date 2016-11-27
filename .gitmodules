@@ -82,3 +82,6 @@
 [submodule "sources_non_forked/tlib_vim"]
 	path = sources_non_forked/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
+[submodule "sources_non_forked/vim-addon-mw-utils"]
+	path = sources_non_forked/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
