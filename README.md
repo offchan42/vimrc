@@ -52,6 +52,13 @@ go.~~ Please use **jedi-vim** instead.
    If you are using **Anaconda** package manager, **jedi** will already be installed
    for you.
 
+7. To use **Ag** ([The Silver Searcher](https://github.com/ggreer/the_silver_searcher)),
+   you need to install it. It's a **grep** like searcher but is faster. If you
+   are only Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
+   Runs `choco install ag` then you are ready to use **ack.vim** plugin in this
+   repository. It's a plugin made to integrate Ack and Ag into Vim. Trigger
+   the plugin by hitting `<leader>a` and enter your search pattern.
+
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
 
@@ -227,22 +234,10 @@ Switch CWD to the directory of the open buffer:
 	
 	map <leader>cd :cd %:p:h<cr>:pwd<cr>
 	
-Open vimgrep and put the cursor in the right position:
-	
-	map <leader>g :vimgrep // **/*.<left><left><left><left><left><left><left>
-
-Vimgreps in the current file:
-	
-	map <leader><space> :vimgrep // <C-R>%<C-A><right><right><right><right><right><right><right><right><right>
-
 Remove the Windows ^M - when the encodings gets messed up:
 	
 	noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 	
-Quickly open a buffer for scripbble:
-	
-	map <leader>q :e ~/buffer<cr>
-
 Toggle paste mode on and off:
 	
 	map <leader>pp :setlocal paste!<cr>
