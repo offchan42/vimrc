@@ -320,21 +320,21 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Ag searching and cope displaying
-"    requires ag.vim - it's much better than vimgrep/grep
+" => Ack searching and cope displaying
+"    requires ack.vim - it's much better than vimgrep/grep
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" When you press gv you Ag after the selected text
+" When you press gv you Ack after the selected text
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
-" Open Ag and put the cursor in the right position
-map <leader>g :Ag 
+" Open Ack and put the cursor in the right position
+map <leader>a :Ack! 
 
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 
 " Do :help cope if you are unsure what cope is. It's super useful!
 "
-" When you search with Ag, display your results in cope by doing:
+" When you search with Ack, display your results in cope by doing:
 "   <leader>cc
 "
 " To go to the next search result do:
@@ -398,7 +398,7 @@ function! VisualSelection(direction, extra_filter) range
     let l:pattern = substitute(l:pattern, "\n$", "", "")
 
     if a:direction == 'gv'
-        call CmdLine("Ag \"" . l:pattern . "\" " )
+        call CmdLine("Ack! \"" . l:pattern . "\" " )
     elseif a:direction == 'replace'
         call CmdLine("%s" . '/'. l:pattern . '/')
     endif
