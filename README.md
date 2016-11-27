@@ -134,7 +134,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text style multiple selections for Vim, CTRL+N
 * [vim-expand-region](https://github.com/terryma/vim-expand-region): Allows you to visually select increasingly larger regions of text using the same key combination. (In this case, it's `+` and `_`)
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): A Git wrapper so awesome, it should be illegal
-* [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2): 
+* [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2):
 Remove all clutter and focus only on the essential. Similar to iA Writer or Write Room [Read more here](http://amix.dk/blog/post/19744)
 * [vim-commentary](https://github.com/tpope/vim-commentary): Comment stuff out.  Use `gcc` to comment out a line (takes a count), `gc` to comment out the target of a motion. `gcu` uncomments a set of adjacent commented lines.
 * [syntastic](https://github.com/scrooloose/syntastic): Syntax checking hacks for vim
@@ -307,7 +307,7 @@ Bash like keys for the command line:
 Write the file as sudo (only on Unix). Super useful when you open a file and you
 don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki/Su-write):
 
-    :W 
+    :W
 
 
 ### Spell checking (currently disabled, use default Vim keys)
@@ -322,7 +322,7 @@ Shortcuts using `<leader>` instead of special chars
     ~~map <leader>sa zg~~
     ~~map <leader>s? z=~~
 
-### Cope  
+### Cope
 Do :help cope if you are unsure what cope is. It's super useful!
 
 When you search with vimgrep, display your results in cope by doing:
