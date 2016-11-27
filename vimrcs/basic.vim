@@ -344,8 +344,8 @@ vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 "   <leader>cp
 "
 map <leader>cc :botright cope<cr>
-" copying this file into a new temporary tab
-map <leader>co ggVGy``:tabnew<cr>:set syntax=qf<cr>pgg
+" copy this buffer into a new temporary tab
+map <leader>co ggVG""y``:tabnew<cr>:set syntax=qf<cr>""pgg
 map <leader>cn :cn<cr>
 map <leader>cp :cp<cr>
 
