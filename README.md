@@ -310,17 +310,17 @@ don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki
     :W 
 
 
-### Spell checking
+### Spell checking (currently disabled, use default Vim keys)
 Pressing `<leader>ss` will toggle and untoggle spell checking
 
-    map <leader>ss :setlocal spell!<cr>
+    ~~map <leader>ss :setlocal spell!<cr>~~
 
 Shortcuts using `<leader>` instead of special chars
 
-    map <leader>sn ]s
-    map <leader>sp [s
-    map <leader>sa zg
-    map <leader>s? z=
+    ~~map <leader>sn ]s~~
+    ~~map <leader>sp [s~~
+    ~~map <leader>sa zg~~
+    ~~map <leader>s? z=~~
 
 ### Cope  
 Do :help cope if you are unsure what cope is. It's super useful!
