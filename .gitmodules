@@ -139,3 +139,6 @@
 [submodule "sources_non_forked/incsearch.vim"]
 	path = sources_non_forked/incsearch.vim
 	url = https://github.com/haya14busa/incsearch.vim.git
+[submodule "sources_non_forked/incsearch-easymotion.vim"]
+	path = sources_non_forked/incsearch-easymotion.vim
+	url = https://github.com/haya14busa/incsearch-easymotion.vim.git

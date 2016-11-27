@@ -379,3 +379,8 @@ command Ag :Ack!
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
 map g/ <Plug>(incsearch-stay)
+
+" incsearch-easymotion (https://github.com/haya14busa/incsearch-easymotion.vim)
+map z/ <Plug>(incsearch-easymotion-/)
+map z? <Plug>(incsearch-easymotion-?)
+map zg/ <Plug>(incsearch-easymotion-stay)
