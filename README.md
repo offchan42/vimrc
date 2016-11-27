@@ -14,9 +14,9 @@ I would of course recommend using the awesome version.
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-	git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
-	sh ~/.vim_runtime/install_awesome_vimrc.sh
-	cd ~/.vim_runtime && git submodule update --init && cd ~-
+  git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
+  sh ~/.vim_runtime/install_awesome_vimrc.sh
+  cd ~/.vim_runtime && git submodule update --init && cd ~-
 
 5. I highly recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960)
 (it's free and awesome font for writing and programming).
@@ -69,8 +69,8 @@ The basic version is basically just one file and no plugins. You can check out
 This is useful to install on remote servers where you don't need many plugins
 and you don't do many edits.
 
-	git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
-	sh ~/.vim_runtime/install_basic_vimrc.sh
+  git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
+  sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
 ## How to install on Windows?
@@ -173,9 +173,9 @@ important for you.
 You can also install your own plugins, for instance, via pathogen we can install
 [vim-rails](https://github.com/tpope/vim-rails):
 
-	cd ~/.vim_runtime
-	git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
-	
+  cd ~/.vim_runtime
+  git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
+  
 Now you have vim-rails installed ;-)
 
 
@@ -211,49 +211,49 @@ has one mapping. (`<leader>z`)
 
 Fast saving of a buffer (`<leader>w`):
 
-	nmap <leader>w :w!<cr>
-	
+  nmap <leader>w :w!<cr>
+  
 Disable highlight when `<leader><cr>` is pressed:
-	
-	map <silent> <leader><cr> :noh<cr>
+  
+  map <silent> <leader><cr> :noh<cr>
 
 Smart way to move between windows (`<ctrl>j` etc.):
-	
-	map <C-j> <C-W>j
-	map <C-k> <C-W>k
-	map <C-h> <C-W>h
-	map <C-l> <C-W>l
+  
+  map <C-j> <C-W>j
+  map <C-k> <C-W>k
+  map <C-h> <C-W>h
+  map <C-l> <C-W>l
 
 Closing of current buffer(s) (`<leader>bd` and (`<leader>ba`)):
-	
-	" Close current buffer
-	map <leader>bd :Bclose<cr>
-	
-	" Close all buffers
-	map <leader>ba :1,1000 bd!<cr>
-	
+  
+  " Close current buffer
+  map <leader>bd :Bclose<cr>
+  
+  " Close all buffers
+  map <leader>ba :1,1000 bd!<cr>
+  
 Useful mappings for managing tabs:
-	
-	map <leader>tn :tabnew<cr>
-	map <leader>to :tabonly<cr>
-	map <leader>tc :tabclose<cr>
-	map <leader>tm :tabmove 
-	
-	" Opens a new tab with the current buffer's path
-	" Super useful when editing files in the same directory
-	map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
-	
+  
+  map <leader>tn :tabnew<cr>
+  map <leader>to :tabonly<cr>
+  map <leader>tc :tabclose<cr>
+  map <leader>tm :tabmove 
+  
+  " Opens a new tab with the current buffer's path
+  " Super useful when editing files in the same directory
+  map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/
+  
 Switch CWD to the directory of the open buffer:
-	
-	map <leader>cd :cd %:p:h<cr>:pwd<cr>
-	
+  
+  map <leader>cd :cd %:p:h<cr>:pwd<cr>
+  
 Remove the Windows ^M - when the encodings gets messed up:
-	
-	noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
-	
+  
+  noremap <leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
+  
 Toggle paste mode on and off:
-	
-	map <leader>pp :setlocal paste!<cr>
+  
+  map <leader>pp :setlocal paste!<cr>
 
 
 ### Insert mode mappings
@@ -267,16 +267,16 @@ Insert the current date and time (useful for timestamps):
 
 Visual mode pressing `*` or `#` searches for the current selection:
 
-	vnoremap <silent> * :call VisualSelection('f')<CR>
-	vnoremap <silent> # :call VisualSelection('b')<CR>
+  vnoremap <silent> * :call VisualSelection('f')<CR>
+  vnoremap <silent> # :call VisualSelection('b')<CR>
 
 When you press gv you vimgrep after the selected text:
 
-	vnoremap <silent> gv :call VisualSelection('gv')<CR>
+  vnoremap <silent> gv :call VisualSelection('gv')<CR>
 
 When you press `<leader>r` you can search and replace the selected text:
 
-	vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
+  vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
 
 Surround the visual selection in parenthesis/brackets/etc.:
 
@@ -286,7 +286,7 @@ Surround the visual selection in parenthesis/brackets/etc.:
     vnoremap $$ <esc>`>a"<esc>`<i"<esc>
     vnoremap $q <esc>`>a'<esc>`<i'<esc>
     vnoremap $e <esc>`>a"<esc>`<i"<esc>
-	
+  
 
 ### Command line mappings
 
@@ -296,9 +296,9 @@ $q is super useful when browsing on the command line. It deletes everything unti
 
 Bash like keys for the command line:
 
-    cnoremap <C-A>		<Home>
-    cnoremap <C-E>		<End>
-    cnoremap <C-K>		<C-U>
+    cnoremap <C-A>    <Home>
+    cnoremap <C-E>    <End>
+    cnoremap <C-K>    <C-U>
 
     cnoremap <C-P> <Up>
     cnoremap <C-N> <Down>
@@ -321,7 +321,7 @@ Shortcuts using `<leader>` instead of special chars
     map <leader>sa zg
     map <leader>s? z=
 
-### Cope	
+### Cope  
 Do :help cope if you are unsure what cope is. It's super useful!
 
 When you search with vimgrep, display your results in cope by doing:
