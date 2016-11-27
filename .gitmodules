@@ -115,3 +115,6 @@
 [submodule "sources_non_forked/vim-expand-region"]
 	path = sources_non_forked/vim-expand-region
 	url = https://github.com/terryma/vim-expand-region.git
+[submodule "sources_non_forked/vim-fugitive"]
+	path = sources_non_forked/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
