@@ -121,3 +121,6 @@
 [submodule "sources_non_forked/vim-javascript"]
 	path = sources_non_forked/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "sources_non_forked/vim-multiple-cursors"]
+	path = sources_non_forked/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
