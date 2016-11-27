@@ -100,3 +100,6 @@
 [submodule "sources_non_forked/emmet-vim"]
 	path = sources_non_forked/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "sources_non_forked/vim-colors-solarized"]
+	path = sources_non_forked/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
