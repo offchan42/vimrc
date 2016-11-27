@@ -167,7 +167,7 @@ nnoremap <leader>ilt :IndentLinesToggle<cr>
 " allow copying via ctrl-c and do motion like default vim behavior
 vnoremap <c-c> "*ygv<c-c>
 " allow pasting via ctrl-v
-inoremap <c-v> <c-r>*
+inoremap <c-v> <esc>"*p
 
 " copy this buffer into a new temporary tab
 nnoremap <leader>co ggVG""y``:tabnew<cr>:set syntax=qf<cr>""pggdd
