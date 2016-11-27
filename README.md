@@ -323,7 +323,7 @@ Shortcuts using `<leader>` instead of special chars
     map <leader>s? z=
 
 ### Cope
-Do :help cope if you are unsure what cope is. It's super useful!
+Do `:help cope` if you are unsure what cope is. It's super useful!
 
 When you search with vimgrep, display your results in cope by doing:
 `<leader>cc`
