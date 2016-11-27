@@ -85,3 +85,6 @@
 [submodule "sources_non_forked/vim-addon-mw-utils"]
 	path = sources_non_forked/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "sources_non_forked/bufexplorer"]
+	path = sources_non_forked/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
