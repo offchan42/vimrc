@@ -168,6 +168,7 @@ nnoremap <leader>ilt :IndentLinesToggle<cr>
 vnoremap <c-c> "*ygv<c-c>
 " allow pasting via ctrl-v
 inoremap <c-v> <esc>"*p
+cnoremap <c-v> <c-r>*
 
 " copy this buffer into a new temporary tab
 nnoremap <leader>co ggVG""y``:tabnew<cr>:set syntax=qf<cr>""pggdd
