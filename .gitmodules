@@ -88,3 +88,6 @@
 [submodule "sources_non_forked/bufexplorer"]
 	path = sources_non_forked/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "sources_non_forked/auto-pairs"]
+	path = sources_non_forked/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
