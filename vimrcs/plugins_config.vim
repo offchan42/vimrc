@@ -189,7 +189,7 @@ func! SyntasticCheckCoffeescript()
   execute "SyntasticCheck"
   execute "Errors"
 endfunc
-nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
+nnoremap <silent> <leader>c mq:call SyntasticCheckCoffeescript()<cr>`q
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -367,3 +367,9 @@ let g:vim_markdown_new_list_item_indent = 2
 
 " vim-visual-increment
 set nrformats=alpha,octal,hex
+
+" ack.vim
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+command Ag :Ack!
