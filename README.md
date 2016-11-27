@@ -314,17 +314,17 @@ When you search with vimgrep, display your results in cope by doing:
 `<leader>cc`
 
 To go to the next search result do:
-`<leader>n`
+`<leader>cn`
 
 To go to the previous search results do:
-`<leader>p`
+`<leader>cp`
 
 Vimscript mappings:
 
     map <leader>cc :botright cope<cr>
     map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
-    map <leader>n :cn<cr>
-    map <leader>p :cp<cr>
+    map <leader>cn :cn<cr>
+    map <leader>cp :cp<cr>
 
 ## How to uninstall
 Do following:
