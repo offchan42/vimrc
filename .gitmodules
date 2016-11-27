@@ -94,3 +94,6 @@
 [submodule "sources_non_forked/vim-markdown"]
 	path = sources_non_forked/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "sources_non_forked/nerdtree"]
+	path = sources_non_forked/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
