@@ -103,3 +103,6 @@
 [submodule "sources_non_forked/vim-colors-solarized"]
 	path = sources_non_forked/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "sources_non_forked/vim-commentary"]
+	path = sources_non_forked/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
