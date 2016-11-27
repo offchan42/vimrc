@@ -158,3 +158,5 @@ endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" vim-indent-lines
+nnoremap <leader>ilt :IndentLinesToggle<cr>
