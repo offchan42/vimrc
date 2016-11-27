@@ -41,7 +41,9 @@ go.~~ Please use **jedi-vim** instead.
 
 4. If you want to use flake8 python static file checkers (**F7**) please use
    python **pip** or any python environment manager to install **flake8** like
-   so: `pip install flake8`
+   so: `pip install flake8`.
+   _In my opinion, this plugin is unnecessary. It rarely finds problems if you
+   code well. :)_
 
 6. To use **jedi-vim** plugin, you must have **jedi** installed. Jedi is an
    awesome autocompletion/static analysis library for Python.
