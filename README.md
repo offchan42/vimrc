@@ -54,11 +54,13 @@ go.~~ Please use **jedi-vim** instead.
 
 7. To use **Ag** ([The Silver Searcher](https://github.com/ggreer/the_silver_searcher)),
    you need to install it. It's like **grep** but is faster.
-   
+
    If you are on Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
-   Runs `choco install ag` then you are ready to use **ack.vim** plugin in this
-   repository. It's a plugin made to integrate Ack and Ag into Vim. Trigger
-   the plugin by hitting `<leader>a` and enter your search pattern.
+
+   Runs `choco install ag` then you are ready to use Ag with **ack.vim** plugin in this
+   repository. **ack.vim** is a plugin made to integrate Ack and Ag into Vim.
+
+   Trigger the plugin by hitting `<leader>a` and enter your search pattern.
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out
