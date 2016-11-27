@@ -79,3 +79,6 @@
 [submodule "sources_non_forked/vim-snippets"]
 	path = sources_non_forked/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "sources_non_forked/tlib_vim"]
+	path = sources_non_forked/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
