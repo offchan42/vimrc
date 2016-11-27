@@ -112,3 +112,6 @@
 [submodule "sources_non_forked/vim-indent-object"]
 	path = sources_non_forked/vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "sources_non_forked/vim-expand-region"]
+	path = sources_non_forked/vim-expand-region
+	url = https://github.com/terryma/vim-expand-region.git
