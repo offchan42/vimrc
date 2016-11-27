@@ -109,3 +109,6 @@
 [submodule "sources_non_forked/vim-repeat"]
 	path = sources_non_forked/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "sources_non_forked/vim-indent-object"]
+	path = sources_non_forked/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
