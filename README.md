@@ -54,15 +54,17 @@ go.~~ Please use **jedi-vim** instead.
 
 7. To use **Ag** ([The Silver Searcher](https://github.com/ggreer/the_silver_searcher)),
    you need to install it. It's a **grep** like searcher but is faster. If you
-   are only Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
+   are on Windows, the easiest way to install is to use [chocolatey](https://chocolatey.org/).
    Runs `choco install ag` then you are ready to use **ack.vim** plugin in this
    repository. It's a plugin made to integrate Ack and Ag into Vim. Trigger
    the plugin by hitting `<leader>a` and enter your search pattern.
 
 ## How to install the Basic version?
-The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
+The basic version is basically just one file and no plugins. You can check out
+[basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
 
-This is useful to install on remote servers where you don't need many plugins and you don't do many edits.
+This is useful to install on remote servers where you don't need many plugins
+and you don't do many edits.
 
 	git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_basic_vimrc.sh
@@ -70,7 +72,8 @@ This is useful to install on remote servers where you don't need many plugins an
 
 ## How to install on Windows?
 
-Use [msysgit (Git Bash)](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
+Use [msysgit (Git Bash)](http://msysgit.github.com/) to checkout the repository
+and run the installation instructions above. No special instructions needed ;-)
 
 
 ## How to install on Linux
@@ -160,9 +163,12 @@ Off's favorite! (this is the default colorscheme for this repository)
 
 ## How to include your own stuff?
 
-After you have installed the setup you can append **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you.
+After you have installed the setup you can append
+**~/.vim_runtime/my_configs.vim** to fill in any configurations that are
+important for you.
 
-You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
+You can also install your own plugins, for instance, via pathogen we can install
+[vim-rails](https://github.com/tpope/vim-rails):
 
 	cd ~/.vim_runtime
 	git clone git://github.com/tpope/vim-rails.git sources_non_forked/vim-rails
@@ -175,7 +181,7 @@ Now you have vim-rails installed ;-)
 ### Plugin related mappings
 
 Open [bufexplorer](https://github.com/vim-scripts/bufexplorer.zip) and see and manage the current buffers (`<leader>o`):
-    
+
     map <leader>o :BufExplorer<cr>
 
 Open [MRU.vim](https://github.com/vim-scripts/mru.vim) and see the recently open files (`<leader>f`):
@@ -190,7 +196,11 @@ Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
     map <leader>nf :NERDTreeTabsFind<cr>
     map <leader>nn :NERDTreeFocusToggle<cr>
 
-[goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2) lets you only focus on one thing at a time. It removes all the distractions and centers the content. It has a special look when editing Markdown, reStructuredText and textfiles. It only has one mapping. (`<leader>z`)
+[goyo.vim](https://github.com/junegunn/goyo.vim) and
+[vim-zenroom2](https://github.com/amix/vim-zenroom2) lets you only focus on one
+thing at a time. It removes all the distractions and centers the content. It has
+a special look when editing Markdown, reStructuredText and textfiles. It only
+has one mapping. (`<leader>z`)
 
     map <leader>z :Goyo<cr>
 
@@ -290,7 +300,8 @@ Bash like keys for the command line:
     cnoremap <C-P> <Up>
     cnoremap <C-N> <Down>
 
-Write the file as sudo (only on Unix). Super useful when you open a file and you don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki/Su-write):
+Write the file as sudo (only on Unix). Super useful when you open a file and you
+don't have permissions to save your changes. [Vim tip](http://vim.wikia.com/wiki/Su-write):
 
     :W 
 
