@@ -336,10 +336,12 @@ To go to the previous search results do:
 
 Vimscript mappings:
 
-    map <leader>cc :botright cope<cr>
-    map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
-    map <leader>cn :cn<cr>
-    map <leader>cp :cp<cr>
+```viml
+map <leader>cc :botright cope<cr>
+map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
+map <leader>cn :cn<cr>
+map <leader>cp :cp<cr>
+```
 
 ## How to uninstall
 Do following:
