@@ -124,3 +124,6 @@
 [submodule "sources_non_forked/vim-multiple-cursors"]
 	path = sources_non_forked/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "sources_non_forked/vim-surround"]
+	path = sources_non_forked/vim-surround
+	url = https://github.com/tpope/vim-surround.git
