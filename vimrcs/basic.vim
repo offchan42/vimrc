@@ -3,16 +3,12 @@
 "       Chanchana Sornsoontorn
 "       https://github.com/off99555/vimrc
 "
-" Original Maintainer:
+" Previous Maintainer:
 "       Amir Salihefendic
-"       http://amix.dk - amix@amix.dk
 "
 " Version:
 "       This repository doesn't follow semantic versioning.
 "       See latest version on GitHub: https://github.com/off99555/vimrc
-"
-" Blog_post:
-"       http://amix.dk/blog/post/19691#The-ultimate-Vim-configuration-on-Github
 "
 " Awesome_version:
 "       Get this config, nice color schemes and lots of plugins!
@@ -20,12 +16,6 @@
 "       Install the awesome version from:
 "
 "           https://github.com/off99555/vimrc
-"
-" Syntax_highlighted:
-"       http://amix.dk/vim/vimrc.html
-"
-" Raw_version:
-"       http://amix.dk/vim/vimrc.txt
 "
 " Sections:
 "    -> General
