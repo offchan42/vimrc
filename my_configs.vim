@@ -134,8 +134,8 @@ inoremap <S-Tab> <c-p>
 "nnoremap <Right> :echoe "Use l"<CR>
 "nnoremap <Up> :echoe "Use k"<CR>
 "nnoremap <Down> :echoe "Use j"<CR>
-nnoremap <Left> B
-nnoremap <Right> W
+nnoremap <Left> {
+nnoremap <Right> }
 nnoremap <Up> 5<c-y>
 nnoremap <Down> 5<c-e>
 
