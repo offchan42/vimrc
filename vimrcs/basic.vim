@@ -4,7 +4,7 @@
 "       https://github.com/off99555/vimrc
 "
 " Previous Maintainer:
-"       Amir Salihefendic
+"       Amir Salihefendic (AKA amix)
 "
 " Version:
 "       This repository doesn't follow semantic versioning.
