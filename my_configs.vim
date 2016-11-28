@@ -176,3 +176,5 @@ cnoremap <c-v> <c-r>*
 nnoremap <leader>co ggVG""y``:tabnew<cr>:set syntax=qf<cr>""pggdd
 vnoremap <leader>co ""y``:tabnew<cr>:set syntax=qf<cr>""pggdd
 
+" CtrlP
+nnoremap z/ :CtrlPLine %<cr>
