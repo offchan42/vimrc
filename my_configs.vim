@@ -122,6 +122,9 @@ set numberwidth=5
 " otherwise, do autocomplete <c-n>
 set wildmode=list:longest,list:full
 function! InsertTabWrapper()
+  if pumvisible()
+    return "\<c-n>"
+  endif
   let col = col('.') - 1
   if !col || getline('.')[col - 1] =~# '\s'
     return "\<tab>"
