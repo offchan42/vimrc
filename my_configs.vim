@@ -161,7 +161,7 @@ endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " change/rename current word and is repeatable using dot (.)
-nnoremap <leader>r *Ncgn
+nmap <leader>r *``cgn
 
 " vim-indent-lines
 nnoremap <leader>ilt :IndentLinesToggle<cr>
