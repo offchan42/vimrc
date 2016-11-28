@@ -150,9 +150,9 @@ Remove all clutter and focus only on the essential. Similar to iA Writer or Writ
 
 ## Included color schemes
 
-* [peaksea](https://github.com/vim-scripts/peaksea): amix' favorite
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized):
-Off's favorite! (this is the default colorscheme for this repository)
+Off's favorite! (this is the default colorscheme)
+* [peaksea](https://github.com/vim-scripts/peaksea): amix's favorite
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
