@@ -317,16 +317,18 @@ When you press `<leader>r` you can search and replace the selected text:
 vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
 ```
 
-> Surround the visual selection in parenthesis/brackets/etc.:
+<!---
+Surround the visual selection in parenthesis/brackets/etc.:
 
-> ```viml
-> vnoremap $1 <esc>`>a)<esc>`<i(<esc>
-> vnoremap $2 <esc>`>a]<esc>`<i[<esc>
-> vnoremap $3 <esc>`>a}<esc>`<i{<esc>
-> vnoremap $$ <esc>`>a"<esc>`<i"<esc>
-> vnoremap $q <esc>`>a'<esc>`<i'<esc>
-> vnoremap $e <esc>`>a"<esc>`<i"<esc>
-> ```
+```viml
+vnoremap $1 <esc>`>a)<esc>`<i(<esc>
+vnoremap $2 <esc>`>a]<esc>`<i[<esc>
+vnoremap $3 <esc>`>a}<esc>`<i{<esc>
+vnoremap $$ <esc>`>a"<esc>`<i"<esc>
+vnoremap $q <esc>`>a'<esc>`<i'<esc>
+vnoremap $e <esc>`>a"<esc>`<i"<esc>
+```
+-->
 
 
 ### Command line mappings
