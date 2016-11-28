@@ -109,6 +109,7 @@ set colorcolumn=+1
 
 set number
 set numberwidth=5
+" relativenumber confuses other people watching our screen, nice argument!
 "set relativenumber
 "autocmd InsertEnter * :set number norelativenumber
 "autocmd InsertLeave * :set number relativenumber
