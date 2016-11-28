@@ -40,7 +40,7 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 " => CTRL-P (https://github.com/ctrlpvim/ctrlp.vim)
 """"""""""""""""""""""""""""""
-let g:ctrlp_working_path_mode = 0
+let g:ctrlp_working_path_mode = 'ra'
 
 let g:ctrlp_map = '<c-p>'
 "map <leader>j :CtrlPMixed<cr>
