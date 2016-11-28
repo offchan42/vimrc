@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Important:
-"       This requries that you install https://github.com/amix/vimrc !
+"       This requries that you install https://github.com/off99555/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
