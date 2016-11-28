@@ -84,6 +84,10 @@ endif
 nnoremap Q <esc>:echo "'Q' is for useless Ex mode.
       \ < < ===== CHECK CAPS LOCK ===== > > "<cr>
 
+" g GG <c-d> <c-u> will stay in the same column
+" nice for doing visual block motions
+set nostartofline
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""" Thoughtbot .vimrc """""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
