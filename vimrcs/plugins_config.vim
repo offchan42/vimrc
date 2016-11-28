@@ -38,7 +38,7 @@ map <leader>f :MRU<CR>
 
 
 """"""""""""""""""""""""""""""
-" => CTRL-P
+" => CTRL-P (https://github.com/ctrlpvim/ctrlp.vim)
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
