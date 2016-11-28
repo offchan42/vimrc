@@ -78,7 +78,9 @@ function! HLNext (blinktime)
   redraw
 endfunction
 
-set cursorline
+if has('gui_running')
+  set cursorline
+endif
 nnoremap Q <esc>:echo "'Q' is for useless Ex mode.
       \ < < ===== CHECK CAPS LOCK ===== > > "<cr>
 
