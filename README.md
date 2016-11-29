@@ -4,6 +4,9 @@
 If you don't have Vim installed, I suggest you to install 64-bit
 version and here is the suggested link: https://bintray.com/micbou/generic/vim
 
+Please use Vim version > 7.4 if possible. GVim and MacVim are the most ideal
+versions that I recommend.
+
 There are two versions:
 
 * **Basic**: If you want something small just copy [basic.vim](vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
