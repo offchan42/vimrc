@@ -142,10 +142,10 @@ inoremap <S-Tab> <c-p>
 "nnoremap <Right> :echoe "Use l"<CR>
 "nnoremap <Up> :echoe "Use k"<CR>
 "nnoremap <Down> :echoe "Use j"<CR>
-nnoremap <Left> {
-nnoremap <Right> }
-nnoremap <Up> 5<c-y>
-nnoremap <Down> 5<c-e>
+noremap <Left> {
+noremap <Right> }
+noremap <Up> 5<c-y>
+noremap <Down> 5<c-e>
 
 " Run commands on the shell
 "nnoremap <Leader>r q:i!
