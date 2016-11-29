@@ -202,3 +202,7 @@ vnoremap S3" <esc>`<O<esc>S"""<esc>`>o<esc>S"""<esc>k$
 
 " allow Ctrl-Backspace to delete preceding big WORD
 inoremap <c-bs> <esc>dBxa
+
+" vim-argwrap (https://github.com/FooSoft/vim-argwrap)
+" A nice mnemonic is 'go arg-wrap'
+nnoremap <silent> gaw :ArgWrap<cr>
