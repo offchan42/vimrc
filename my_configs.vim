@@ -27,6 +27,7 @@ map Y y$
 " The smash escape
 inoremap jk <Esc>
 "inoremap kj <Esc>
+inoremap  ่า <Esc>
 
 " Open new split windows to the right/bottom instead of left/top
 set splitright splitbelow
