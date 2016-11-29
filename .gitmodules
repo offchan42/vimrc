@@ -151,3 +151,6 @@
 [submodule "sources_non_forked/matchit"]
 	path = sources_non_forked/matchit
 	url = https://github.com/tmhedberg/matchit.git
+[submodule "sources_non_forked/splitjoin.vim"]
+	path = sources_non_forked/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
