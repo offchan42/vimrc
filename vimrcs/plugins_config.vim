@@ -27,6 +27,7 @@ map <leader>o :BufExplorerVerticalSplit<cr>
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
 let MRU_Window_Height = 16
+let MRU_Open_File_Use_Tab_s = 1
 map <leader>f :MRU<CR>
 
 
