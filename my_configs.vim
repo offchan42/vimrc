@@ -186,3 +186,7 @@ vnoremap <leader>co ""y:tabnew<cr>:set syntax=qf<cr>""P
 
 " CtrlP
 nnoremap z/ :CtrlPLine %<cr>
+
+" vim-surround with 3 backticks for code (only works for whole line)
+" TODO: Make this works on part of a line too
+vnoremap Sc <esc>`<O<esc>S```<esc>`>o<esc>S```<esc>k$
