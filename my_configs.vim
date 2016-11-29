@@ -89,6 +89,10 @@ nnoremap Q <esc>:echo "'Q' is for useless Ex mode.
 " nice for doing visual block motions
 set nostartofline
 
+" Disable automatically insert the current comment leader after hitting
+" 'o' or " 'O' in Normal mode.
+autocmd FileType * setlocal formatoptions-=o
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""" Thoughtbot .vimrc """""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
