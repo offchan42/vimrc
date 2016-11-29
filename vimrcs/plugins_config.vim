@@ -26,6 +26,7 @@ map <leader>o :BufExplorerVerticalSplit<cr>
 " => MRU plugin
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
+let MRU_Window_Height = 16
 map <leader>f :MRU<CR>
 
 
