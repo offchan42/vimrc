@@ -154,3 +154,6 @@
 [submodule "sources_non_forked/splitjoin.vim"]
 	path = sources_non_forked/splitjoin.vim
 	url = https://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "sources_non_forked/vim-argwrap"]
+	path = sources_non_forked/vim-argwrap
+	url = https://github.com/FooSoft/vim-argwrap.git
