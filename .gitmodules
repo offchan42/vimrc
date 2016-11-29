@@ -148,3 +148,6 @@
 [submodule "sources_non_forked/vim-thai-keys"]
 	path = sources_non_forked/vim-thai-keys
 	url = https://github.com/off99555/vim-thai-keys.git
+[submodule "sources_non_forked/matchit"]
+	path = sources_non_forked/matchit
+	url = https://github.com/tmhedberg/matchit.git
