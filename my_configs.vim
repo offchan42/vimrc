@@ -90,8 +90,8 @@ nnoremap Q <esc>:echo "'Q' is for useless Ex mode.
 set nostartofline
 
 " Disable automatically insert the current comment leader after hitting
-" 'o' or " 'O' in Normal mode.
-autocmd FileType * setlocal formatoptions-=o
+" 'o' or " 'O' in Normal mode. Or after hitting <Enter> in Insert mode.
+autocmd FileType * setlocal formatoptions-=ro
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
