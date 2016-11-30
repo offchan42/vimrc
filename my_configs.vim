@@ -102,7 +102,8 @@ if !exists(":DiffOrig")
         \ | wincmd p | diffthis
 endif
 
-set tags+=doc/tags
+set tags-=./tags
+set tags+=./doc/tags,doc/tags,./tags;
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""" Thoughtbot .vimrc """""""""""
