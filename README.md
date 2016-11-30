@@ -39,7 +39,7 @@ installed it inside this repository for you. But if you want to install it with 
 set, use **chocolatey** and run `cinst ctags`)
 
   _Optional_: You can use the latest version of **ctags** which is named
-  **[Universal ctags]**(https://github.com/universal-ctags/ctags) manually instead of the **Exuberant ctags** I mentioned above.
+  [Universal ctags](https://github.com/universal-ctags/ctags) manually instead of the **Exuberant ctags** I mentioned above.
 
 3. deprecated: ~~If you want to use Python's Omni autocomplete feature with **CTRL-X CTRL-O**
 then install Python 2 and set **PYTHONHOME** to the directory where you have
