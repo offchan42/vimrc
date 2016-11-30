@@ -191,7 +191,7 @@ nnoremap <leader>ilt :IndentLinesToggle<cr>
 " allow copying in visual mode via ctrl-c
 vnoremap <c-c> "*y
 " allow pasting via ctrl-v
-inoremap <c-v> <esc>"*p
+inoremap <c-v> <c-r><c-o>*
 cnoremap <c-v> <c-r>*
 
 " copy this buffer into a new temporary tab
