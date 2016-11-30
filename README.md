@@ -34,8 +34,9 @@ need to have Lua installed, please refer to
 https://github.com/Shougo/neocomplete.vim#requirements for further instructions.
 
 2. If you want to use **taglist.vim** plugin (**F8**) then you also need to install **ctags** which
-can be found at http://ctags.sourceforge.net/ (Don't install if you use Windows
-because the Windows version is already installed inside this repository)
+can be found at http://ctags.sourceforge.net/ (For Windows, I have already
+installed it inside this repository for you. But if you want to install it with **PATH** variable
+set, use **chocolatey** and run `cinst ctags`)
 
 3. deprecated: ~~If you want to use Python's Omni autocomplete feature with **CTRL-X CTRL-O**
 then install Python 2 and set **PYTHONHOME** to the directory where you have
