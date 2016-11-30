@@ -353,6 +353,7 @@ let g:EasyMotion_startofline = 0 " keep cursor column when jk motion
 if !executable('ctags')
   if has("win32")
     let g:Tlist_Ctags_Cmd = '"%userprofile%/.vim_runtime/ctags58/ctags.exe"'
+    let g:ctrlp_buftag_ctags_bin = '"%userprofile%/.vim_runtime/ctags58/ctags.exe"'
   else
     " this is just a placeholder for ctags so that it won't yell error on startup
     let g:Tlist_Ctags_Cmd = 'CHANGE_THIS_PLACEHOLDER_FOR_CTAGS'
