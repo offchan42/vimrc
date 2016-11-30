@@ -226,6 +226,10 @@ inoremap <C-U> <C-G>u<C-U>
 nnoremap <tab> <c-w>>
 nnoremap <s-tab> <c-w>+
 
+" generating ctags file named "tags" so that you can use <c-[> and <c-t>
+" for moving through tags stack
+nnoremap <leader>ct :!ctags -R .
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""" stolen from mswin.vim """""""""""""""""""""""
 
@@ -238,6 +242,3 @@ if has("gui")
   inoremap <M-Space> <C-O>:simalt ~<CR>
   cnoremap <M-Space> <C-C>:simalt ~<CR>
 endif
-
-" generating ctags file named "tags"
-nnoremap <leader>ct :!ctags -R .
