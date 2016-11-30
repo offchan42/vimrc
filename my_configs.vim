@@ -188,8 +188,8 @@ nmap <leader>r *``cgn
 " vim-indent-lines
 nnoremap <leader>ilt :IndentLinesToggle<cr>
 
-" allow copying via ctrl-c and do motion like default vim behavior
-vnoremap <c-c> "*ygv<c-c>
+" allow copying in visual mode via ctrl-c
+vnoremap <c-c> "*y
 " allow pasting via ctrl-v
 inoremap <c-v> <esc>"*p
 cnoremap <c-v> <c-r>*
