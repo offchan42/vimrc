@@ -206,3 +206,8 @@ inoremap <c-bs> <esc>dBxa
 " vim-argwrap (https://github.com/FooSoft/vim-argwrap)
 " A nice mnemonic is 'go arg-wrap'
 nnoremap <silent> gaw :ArgWrap<cr>
+
+" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
+" so that you can undo CTRL-U after inserting a line break.
+" Revert with ":iunmap <C-U>".
+inoremap <C-U> <C-G>u<C-U>
