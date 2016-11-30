@@ -199,9 +199,15 @@ nnoremap <leader>co gg""yG``zz:tabnew<cr>:set syntax=qf<cr>""P
 vnoremap <leader>co ""y:tabnew<cr>:set syntax=qf<cr>""P
 
 " CtrlP extensions
-nnoremap z/ :CtrlPLine %<cr>
-nnoremap <leader>pf :CtrlPMRUFiles
-nnoremap <leader>pt :CtrlPTag
+" if there are timeout delays, you can use backspace to invoke immediate response
+" e.g. <c-p>b<bs> to invoke :CtrlPBuffer instantly
+nnoremap <silent> <c-p>p :CtrlPMixed<cr>
+nnoremap <silent> <c-p>l :CtrlPLine %<cr>
+nnoremap <silent> <c-p>f :CtrlPMRUFiles<cr>
+nnoremap <silent> <c-p>t :CtrlPTag<cr>
+nnoremap <silent> <c-p>b :CtrlPBuffer<cr>
+nnoremap <silent> <c-p>bt :CtrlPBufTag<cr>
+nnoremap <silent> <c-p>bta :CtrlPBufTagAll<cr>
 
 " vim-surround with 3 backticks for code (only works for whole line)
 " TODO: Make this works on part of a line too
