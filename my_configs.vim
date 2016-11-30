@@ -239,3 +239,5 @@ if has("gui")
   cnoremap <M-Space> <C-C>:simalt ~<CR>
 endif
 
+" generating ctags file named "tags"
+nnoremap <leader>ct :!ctags -R .
