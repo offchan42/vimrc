@@ -226,3 +226,11 @@ inoremap <C-U> <C-G>u<C-U>
 
 " backspace in Visual mode deletes selection
 vnoremap <BS> d
+
+" Alt-Space is System menu
+if has("gui")
+  noremap <M-Space> :simalt ~<CR>
+  inoremap <M-Space> <C-O>:simalt ~<CR>
+  cnoremap <M-Space> <C-C>:simalt ~<CR>
+endif
+
