@@ -198,8 +198,10 @@ cnoremap <c-v> <c-r>*
 nnoremap <leader>co gg""yG``zz:tabnew<cr>:set syntax=qf<cr>""P
 vnoremap <leader>co ""y:tabnew<cr>:set syntax=qf<cr>""P
 
-" CtrlP
+" CtrlP extensions
 nnoremap z/ :CtrlPLine %<cr>
+nnoremap <leader>pf :CtrlPMRUFiles
+nnoremap <leader>pt :CtrlPTag
 
 " vim-surround with 3 backticks for code (only works for whole line)
 " TODO: Make this works on part of a line too
