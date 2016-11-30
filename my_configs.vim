@@ -60,7 +60,7 @@ au BufNewFile,BufRead *.py
 
 " Enable folding
 set foldmethod=indent
-set foldlevel=99 "start by not closing any folds
+set foldlevelstart=99 "start by not closing any folds
 
 " This rewires n and N to do the highlighing...
 "nnoremap <silent> n   n:call HLNext(0.05)<cr>
