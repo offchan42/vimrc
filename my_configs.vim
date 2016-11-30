@@ -221,6 +221,10 @@ nnoremap <silent> gaw :ArgWrap<cr>
 " Revert with ":iunmap <C-U>".
 inoremap <C-U> <C-G>u<C-U>
 
+" mapping <tab> todo something useful (like increasing window size)
+nnoremap <tab> <c-w>>
+nnoremap <s-tab> <c-w>+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""" stolen from mswin.vim """""""""""""""""""""""
 
