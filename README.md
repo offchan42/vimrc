@@ -7,7 +7,8 @@ version and here is the suggested link: https://bintray.com/micbou/generic/vim
 Please use Vim version >= 7.4 if possible. GVim and MacVim are the most ideal
 distribution that I recommend.
 
-There are two versions:
+## Vimrc Installation
+There are two options:
 
 * **Basic**: If you want something small just copy [basic.vim](vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
 * **Awesome**: This includes a ton of useful plugins, color schemes and configurations
