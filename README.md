@@ -119,6 +119,8 @@ also has **vim-mode-plus** so you can do some vimming inside it. But it's just a
 package, it cannot beat the true power of Vim. I love both of
 them, but I think I favor Vim more. Its interface is not as beautiful as Atom
 yet but it will as long as [Neovim](https://neovim.io/) team keeps working.
+I spent so much time learning and customizing my Vim, I'm not gonna be the
+victim of an editor's beauty ~~again~~! :)
 ![gVim vs Atom](screenshots/2016-11-29_12-27-18.png?raw=true)
 
 Colors when editing a Python file of a **peaksea** colorscheme
