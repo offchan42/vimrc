@@ -114,6 +114,13 @@ cd ~-
 solarized** colorscheme.
 ![Screenshot 0](screenshots/2016-11-14_02-29-15.png?raw=true)
 
+**gVim vs Atom on my Windows**: Clearly atom is more aesthetically pleasing, it
+also has **vim-mode-plus** so you can do some vimming inside it. But it's just a
+package, it cannot beat the true power of Vim. I love both of
+them, but I think I favor Vim more. Its interface is not as beautiful as Atom
+yet but it will as long as [Neovim](https://neovim.io/) team keeps working.
+![gVim vs Atom](screenshots/2016-11-29_12-27-18.png?raw=true)
+
 Colors when editing a Python file of a **peaksea** colorscheme
 ![Screenshot 1](http://files1.wedoist.com/e952fdb343b1e617b90d256e474d0370/as/screenshot_1.png)
 
