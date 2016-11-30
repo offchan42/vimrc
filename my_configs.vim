@@ -222,6 +222,7 @@ nnoremap <silent> gaw :ArgWrap<cr>
 inoremap <C-U> <C-G>u<C-U>
 
 " mapping <tab> todo something useful (like increasing window size)
+" you can use <c-w>= to make all windows equally high and wide
 nnoremap <tab> <c-w>>
 nnoremap <s-tab> <c-w>+
 
