@@ -4,8 +4,8 @@
 If you don't have Vim installed, I suggest you to install 64-bit
 version and here is the suggested link: https://bintray.com/micbou/generic/vim
 
-Please use Vim version > 7.4 if possible. GVim and MacVim are the most ideal
-versions that I recommend.
+Please use Vim version >= 7.4 if possible. GVim and MacVim are the most ideal
+distribution that I recommend.
 
 There are two versions:
 
