@@ -220,3 +220,9 @@ nnoremap <silent> gaw :ArgWrap<cr>
 " so that you can undo CTRL-U after inserting a line break.
 " Revert with ":iunmap <C-U>".
 inoremap <C-U> <C-G>u<C-U>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""" stolen from mswin.vim """""""""""""""""""""""
+
+" backspace in Visual mode deletes selection
+vnoremap <BS> d
