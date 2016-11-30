@@ -208,6 +208,7 @@ nnoremap <silent> <c-p>t :CtrlPTag<cr>
 nnoremap <silent> <c-p>b :CtrlPBuffer<cr>
 nnoremap <silent> <c-p>bt :CtrlPBufTag<cr>
 nnoremap <silent> <c-p>bta :CtrlPBufTagAll<cr>
+nnoremap <silent> <c-p>q :CtrlPQuickfix<cr>
 
 " vim-surround with 3 backticks for code (only works for whole line)
 " TODO: Make this works on part of a line too
