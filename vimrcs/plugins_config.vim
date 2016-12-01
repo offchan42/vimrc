@@ -399,7 +399,8 @@ command Ag :Ack!
 " incsearch.vim (https://github.com/haya14busa/incsearch.vim)
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
+" z/ mnemonic is "stay slash"
+map z/ <Plug>(incsearch-stay)
 
 " incsearch-easymotion (https://github.com/haya14busa/incsearch-easymotion.vim)
 map <leader><leader>/ <Plug>(incsearch-easymotion-/)
@@ -407,6 +408,7 @@ map <leader><leader>? <Plug>(incsearch-easymotion-?)
 map <leader><leader>g/ <Plug>(incsearch-easymotion-stay)
 
 " vim-asterisk (https://github.com/haya14busa/vim-asterisk)
+" gz* mnemonic is "great stay star"
 let g:asterisk#keeppos = 1
 map *   <Plug>(asterisk-*)
 map #   <Plug>(asterisk-#)
