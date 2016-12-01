@@ -204,23 +204,13 @@ let g:gitgutter_enabled=1
 " => vim-expand-region
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " This plugin can be invoked via + or _ symbol, it would wrap text objects
-" like Ctrl-W in JetBrains-like IDE does
+" like Ctrl-W in JetBrains-like IDE
+" Only the important text objects like parentheses are included because they can
+" be defined recursively in a nested contruction
 let g:expand_region_text_objects = {
-      \ 'iw': 0,
-      \ 'iW': 0,
-      \ 'i"': 1,
-      \ 'a"': 1,
-      \ "i'": 1,
-      \ "a'": 1,
-      \ 'i]': 1,
       \ 'a]': 1,
-      \ 'ib': 1,
       \ 'ab': 1,
-      \ 'iB': 1,
       \ 'aB': 1,
-      \ 'il': 0,
-      \ 'ip': 1,
-      \ 'ie': 0,
       \ 'ii': 1,
       \ 'ai': 1,
       \ }
