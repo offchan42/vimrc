@@ -253,6 +253,11 @@ nnoremap <s-tab> <c-w>+
 " for moving through tags stack
 nnoremap <leader>ct :!ctags -R .
 
+" Open the directory for the current file in Windows
+" (http://vim.wikia.com/wiki/Open_the_directory_for_the_current_file_in_Windows)
+" oie mnemonic is "open in explorer"
+map <leader>oie :!start explorer %:p:h:gs?\/?\\\\\\?<CR>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""" stolen from mswin.vim """""""""""""""""""""""
 
