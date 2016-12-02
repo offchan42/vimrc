@@ -198,14 +198,14 @@ inoremap <c-v> <c-r><c-o>*
 cnoremap <c-v> <c-r>*
 
 " copy this buffer into a new temporary tab
-function! PasteInNewTab()
+function! PasteUnnamedRegInNewTab()
   let ft = &filetype
   tabnew
   execute "set filetype=" . ft
   norm ""P
 endfunction
-nnoremap <leader>co gg""yG``zz:call PasteInNewTab()<cr>
-vnoremap <leader>co ""y:call PasteInNewTab()<cr>
+nnoremap <leader>co gg""yG``zz:call PasteUnnamedRegInNewTab()<cr>
+vnoremap <leader>co ""y:call PasteUnnamedRegInNewTab()<cr>
 
 " CtrlP extensions
 " if there are timeout delays, you can use backspace to invoke immediate response
