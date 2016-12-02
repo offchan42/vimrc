@@ -218,6 +218,11 @@ nnoremap <silent> <c-p>b :CtrlPBuffer<cr>
 nnoremap <silent> <c-p>bt :CtrlPBufTag<cr>
 nnoremap <silent> <c-p>bta :CtrlPBufTagAll<cr>
 nnoremap <silent> <c-p>q :CtrlPQuickfix<cr>
+nnoremap <silent> <c-p>bd :CtrlPBookmarkDir<cr>
+nnoremap <silent> <c-p>bda :CtrlPBookmarkDirAdd<cr>
+nnoremap <silent> <c-p>c :CtrlPChange<cr>
+nnoremap <silent> <c-p>cs :CtrlPChangeAll<cr>
+nnoremap <silent> <c-p>d :CtrlPDir<cr>
 
 " vim-surround with 3 backticks for code (only works for whole line)
 " TODO: Make this works on part of a line too
