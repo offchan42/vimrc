@@ -233,6 +233,7 @@ vnoremap S3` <esc>`<O<esc>S```<esc>`>o<esc>S```<esc>k$
 vnoremap S3" <esc>`<O<esc>S"""<esc>`>o<esc>S"""<esc>k$
 
 " allow Ctrl-Backspace to delete preceding big WORD
+" FIXME: Does not work properly if there are only one character preceding
 inoremap <c-bs> <esc>dBxa
 
 " vim-argwrap (https://github.com/FooSoft/vim-argwrap)
