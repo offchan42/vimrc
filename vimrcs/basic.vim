@@ -124,7 +124,7 @@ set mat=2
 set noerrorbells
 set visualbell
 set t_vb=
-set timeoutlen=750
+set timeoutlen=350
 
 " Properly disable sound on errors on MacVim
 if has("gui_macvim") || has('autocmd')
