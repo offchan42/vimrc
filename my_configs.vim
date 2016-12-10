@@ -26,9 +26,13 @@ map Y y$
 
 " The smash escape
 inoremap jk <Esc>
+inoremap kj <Esc>
 inoremap  ่า <Esc>
+inoremap า่ <Esc>
 inoremap fd <Esc>
+inoremap df <Esc>
 inoremap ดก <Esc>
+inoremap กด <Esc>
 
 " Spacemacs key bindings
 nnoremap <leader>wd <c-w>c
