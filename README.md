@@ -230,7 +230,7 @@ Open [MRU.vim](https://github.com/vim-scripts/mru.vim) and see the recently open
 map <leader>f :MRU<CR>
 ```
 
-Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin (`<leader>j`)
+Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin (`<c-p>`)
 
 Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
 
@@ -252,10 +252,10 @@ map <leader>z :Goyo<cr>
 
 ### Normal mode mappings
 
-Fast saving of a buffer (`<leader>w`):
+Fast saving of a buffer (`<leader>fs`):
 
 ```viml
-nmap <leader>w :w!<cr>
+nmap <leader>fs :w!<cr>
 ```
 
 Disable highlight when `<leader><cr>` is pressed:
@@ -271,6 +271,11 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+" or use spacemacs style
+map <leader>wj <C-W>j
+map <leader>wk <C-W>k
+map <leader>wh <C-W>h
+map <leader>wl <C-W>l
 ```
 
 Closing of current buffer(s) (`<leader>bd` and (`<leader>ba`)):
