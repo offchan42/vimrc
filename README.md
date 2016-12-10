@@ -1,4 +1,8 @@
 # The Ultimate vimrc [[OFF'S EDITION]]
+**Update**: I'm now using Vim when I want fast access because Vim is all over the
+place. But I'm also learning to use [Spacemacs](http://spacemacs.org/) (an Emacs
+distribution focusing on bringing the best of Vim and Emacs together) and I've
+been happy with it so far.
 
 ## Prerequisite
 If you don't have Vim installed, I suggest you to install 64-bit
