@@ -33,6 +33,7 @@ inoremap ดก <Esc>
 " Spacemacs key bindings
 nnoremap <leader>wd <c-w>c
 nnoremap <leader>ft :NERDTreeTabsToggle<cr>
+nnoremap <leader>fr :CtrlPMRUFiles<cr>
 
 " Open new split windows to the right/bottom instead of left/top
 set splitright splitbelow
