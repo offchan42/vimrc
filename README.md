@@ -6,8 +6,8 @@ been happy with it so far.
 
 You will see that many key bindings in this vimrc is stolen from Spacemacs. I
 want you to explore it yourself. I encourage you to try it, here's my dot
-spacemacs file in case you are wondering:
-https://gist.github.com/off99555/991e3202d4ff960ad72ef06c4d7ea1e4
+spacemacs directory in case you are curious:
+https://github.com/off99555/.spacemacs.d
 
 ## Prerequisite
 If you don't have Vim installed, I suggest you to install 64-bit
