@@ -1,8 +1,18 @@
 # The Ultimate vimrc [[OFF'S EDITION]]
 **Update**: I'm now using Vim when I want fast access because Vim is all over the
-place. But I'm also learning to use [Spacemacs](http://spacemacs.org/) (an Emacs
+place. But I'm currently using [Spacemacs](http://spacemacs.org/) (an Emacs
 distribution focusing on bringing the best of Vim and Emacs together) and I've
 been happy with it so far.
+
+**Update 2**: There is something
+called [SpaceVim](https://github.com/SpaceVim/SpaceVim) that comes out lately
+and it said that it's similar to **Spacemacs**. I have not tried it yet but this
+proved that concept of **Spacemacs** is good enough to be followed.
+
+This also means that it might be better to use **SpaceVim** distribution instead
+of mine. Because I think I'm not going to update this repository for awhile. I'm
+going to the dark side with **Spacemacs** distribution on **Emacs**.
+
 
 You will see that many key bindings in this vimrc is stolen from Spacemacs. I
 want you to explore it yourself. I encourage you to try it, here's my dot
