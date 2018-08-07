@@ -26,10 +26,10 @@ a lot of time to tolerate! Its Vim extension doesn't interfere much
 with the VS Code keybindings itself. That's why I like it. (JetBrains IDE like PyCharm, IntelliJ, PhpStorm, etc
 have Vim plugins that interfere a lot with its keybindings, so I don't use Vim plugin in those IDEs)
 
-I code in `Python` a lot so `Jupyter Lab` is another IDE that runs in the browse I like a lot
-because it's easy to experiment with code using its visual style. And yes, it
-has Vim extension (without any interference with its keybindings at all)!
-So I suggest using that.
+I code in `python` a lot so `Jupyter Lab` is another IDE that runs in the browser. I like a lot
+because it's easy to experiment with code using its visual style. And it  starts even quicker than any text editor.
+And yes, it has Vim extension (without any interference with its keybindings at all)!
+So I suggest using Jupyter Lab to run your Jupyter Notebook and python code.
 
 Also, if you are a Vim lover like me, you might like Vimium extension in Chrome.
 Try that and you will not need to use much mouse for browsing web anymore.
