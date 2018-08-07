@@ -19,6 +19,15 @@ want you to explore it yourself. I encourage you to try it, here's my dot
 spacemacs directory in case you are curious:
 https://github.com/off99555/.spacemacs.d
 
+**Update 3**: I'm now using `Visual Studio Code` as my go to text editor now.
+As it's easy to use and it also has a stunning Vim extension.
+It's fast to open in my PC. It took less than 3 seconds to run. That's not
+a lot of time to tolerate! With the Vim extension, I can do pretty much
+everything without much trouble.
+
+Also, if you are a Vim lover like me, you might like Vimium extension in Chrome.
+Try that and you will not need to use much mouse for browsing web anymore.
+
 ## Prerequisite
 If you don't have Vim installed, I suggest you to install 64-bit
 version and here is the suggested link: https://bintray.com/micbou/generic/vim
