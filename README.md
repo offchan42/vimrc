@@ -22,8 +22,14 @@ https://github.com/off99555/.spacemacs.d
 **Update 3**: I'm now using `Visual Studio Code` as my go to text editor now.
 As it's easy to use and it also has a stunning Vim extension.
 It's fast to open in my PC. It took less than 3 seconds to run. That's not
-a lot of time to tolerate! With the Vim extension, I can do pretty much
-everything without much trouble.
+a lot of time to tolerate! Its Vim extension doesn't interfere much
+with the VS Code keybindings itself. That's why I like it. (JetBrains IDE like PyCharm, IntelliJ, PhpStorm, etc
+have Vim plugins that interfere a lot with its keybindings, so I don't use Vim plugin in those IDEs)
+
+I code in `Python` a lot so `Jupyter Lab` is another IDE that runs in the browse I like a lot
+because it's easy to experiment with code using its visual style. And yes, it
+has Vim extension (without any interference with its keybindings at all)!
+So I suggest using that.
 
 Also, if you are a Vim lover like me, you might like Vimium extension in Chrome.
 Try that and you will not need to use much mouse for browsing web anymore.
