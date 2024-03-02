@@ -17,7 +17,7 @@ going to the dark side with **Spacemacs** distribution on **Emacs**.
 You will see that many key bindings in this vimrc is stolen from Spacemacs. I
 want you to explore it yourself. I encourage you to try it, here's my dot
 spacemacs directory in case you are curious:
-https://github.com/off99555/.spacemacs.d
+https://github.com/offchan42/.spacemacs.d
 
 **Update 3**: I'm now using `Visual Studio Code` as my go to text editor now.
 As it's easy to use and it also has a stunning Vim extension.
@@ -53,7 +53,7 @@ I would of course recommend using the awesome version.
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
 ```bash
-git clone https://github.com/off99555/vimrc.git ~/.vim_runtime
+git clone https://github.com/offchan42/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 cd ~/.vim_runtime && git submodule update --init && cd ~-
 ```
@@ -110,13 +110,13 @@ go.~~ Please use **jedi-vim** instead.
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out
-[basic.vim](https://github.com/off99555/vimrc/blob/master/vimrcs/basic.vim).
+[basic.vim](https://github.com/offchan42/vimrc/blob/master/vimrcs/basic.vim).
 
 This is useful to install on remote servers where you don't need many plugins
 and you don't do many edits.
 
 ```bash
-git clone git://github.com/off99555/vimrc.git ~/.vim_runtime
+git clone git://github.com/offchan42/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_basic_vimrc.sh
 ```
 
